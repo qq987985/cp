@@ -13,6 +13,9 @@ nonisolated enum ShapeKind: String, CaseIterable, Codable, Sendable {
         guard radius > 0 else { return CGPath(rect: rect, transform: nil) }
         return CGPath(roundedRect: rect, cornerWidth: radius, cornerHeight: radius, transform: nil)
     }
+
+    /// The localized name.
+    var localizedName: String { rawValue.localized }
 }
 
 /// What a shape layer draws, kept so the shape can be drawn again at a new size.

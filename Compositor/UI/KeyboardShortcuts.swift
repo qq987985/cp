@@ -316,10 +316,10 @@ private struct KeyboardShortcutsSheet: View {
             }
             Divider()
             HStack {
-                Button("Restore Defaults") { recording = nil; draft = [:] }
+                Button("Restore Defaults".localized) { recording = nil; draft = [:] }
                 Spacer()
-                Button("Cancel") { settings.close() }.keyboardShortcut(.cancelAction)
-                Button("Save") { settings.save(draft) }.keyboardShortcut(.defaultAction)
+                Button("Cancel".localized) { settings.close() }.keyboardShortcut(.cancelAction)
+                Button("Save".localized) { settings.save(draft) }.keyboardShortcut(.defaultAction)
                     .buttonStyle(.borderedProminent)
                     .disabled(recording != nil || ShortcutSettings.problem(in: draft) != nil)
             }
