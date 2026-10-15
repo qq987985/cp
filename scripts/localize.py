@@ -163,11 +163,12 @@ def prepare(args):
         if count!=patch.get('count',1): raise SystemExit('补丁锚点变化，请审核：'+patch['file']+' '+patch['old'][:70])
         f.write_text(s.replace(patch['old'],patch['new']))
     shutil.copy(ROOT/'scripts/CN.swift',SOURCE/'Compositor/CN.swift')
-    for f in sorted((SOURCE/'Compositor').rglob('*.swift')):
+    for f in sorted(list((SOURCE/'Compositor').rglob('*.swift')) + [SOURCE/'Compositor.xcodeproj/project.pbxproj']):
         old=VENDOR/f.relative_to(SOURCE)
         if old.exists():
             diffs.extend(difflib.unified_diff(old.read_text().splitlines(True),f.read_text().splitlines(True),fromfile='a/'+str(f.relative_to(SOURCE)),tofile='b/'+str(f.relative_to(SOURCE))))
     (ROOT/'patches/generated.patch').write_text(''.join(diffs))
+    save(ROOT/'reports/upstream-sha256.json', {str(f.relative_to(VENDOR)): hashlib.sha256(f.read_bytes()).hexdigest() for f in VENDOR.rglob('*') if f.is_file()})
     save(ROOT/'translations/inventory.json',catalog)
     save(ROOT/'reports/display-sites.json',sites)
     save(ROOT/'reports/dynamic-review.json',audit)

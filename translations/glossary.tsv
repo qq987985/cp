@@ -646,3 +646,83 @@ Version 3	版本 3
 Version 4	版本 4
 Version 5	版本 5
 Version 6	版本 6
+CMYK Proof Colors	CMYK 校样颜色
+CMYK Gamut Warning	CMYK 色域警告
+Type (T)	文字（T）
+Eyedropper (I)	吸管（I）
+Marquee (M)	选框（M）
+Lasso (L)	套索（L）
+Magic (W) · Tab switches Wand and Object	魔棒工具组（W）· Tab 切换魔棒与对象
+Brush (B) · Eraser (E)	画笔（B）· 橡皮擦（E）
+Spot Healing Brush (J)	污点修复画笔（J）
+Clone Stamp (S) · Option-click sets the source	仿制图章（S）· Option 单击设置取样源
+Smear (R)	涂抹工具组（R）
+Gradient (G)	渐变（G）
+Shape (U) · Shift-U switches Rectangle/Ellipse	形状（U）· Shift-U 切换矩形与椭圆
+Crop (C)	裁剪（C）
+Move / Transform (V)	移动/变换（V）
+Hand (H)	抓手（H）
+Zoom (Z)	缩放（Z）
+Duplicate Layers	复制多个图层
+Transform Layers	变换多个图层
+Reorder Layers	重新排列图层
+Import Photoshop File	导入 Photoshop 文件
+Import Image	导入图像
+Group Layers	编组图层
+Merge Layers	合并图层
+Select All	全选
+Select Subject	选择主体
+Delete	删除
+Return	回车
+Space	空格
+Fill with Foreground	填充前景色
+Fill with Background	填充背景色
+Inverse Selection	反向选择
+Invert Pixels / Mask	反相像素/蒙版
+Transform Layer / Selection	变换图层/选区
+Duplicate / Layer via Copy	复制/通过拷贝的图层
+Toggle Clipping Mask	切换剪贴蒙版
+Show Grid	显示网格
+Show Guides	显示参考线
+Show Rulers	显示标尺
+Toggle Fullscreen: the canvas alone on black (Esc also leaves)	切换全屏：黑色背景中仅显示画布（Esc 也可退出）
+Select tool	选择工具
+Move / Transform tool	移动/变换工具
+Hand tool	抓手工具
+Zoom tool	缩放工具
+Brush tool	画笔工具
+Type tool	文字工具
+Gradient tool	渐变工具
+Shape tool	形状工具
+Eyedropper tool	吸管工具
+Marquee / cycle shape	选框/切换形状
+Lasso / cycle mode	套索/切换模式
+Blur / Smudge / Liquify	模糊/涂抹/液化
+Crop tool	裁剪工具
+Swap foreground/background	交换前景色与背景色
+Reset colors	重置颜色
+Cycle tool mode	切换工具模式
+Temporary Hand tool (hold)	临时抓手工具（按住）
+Delete selection / layer / effect / lasso point	删除选区/图层/效果/套索点
+Apply current canvas operation	应用当前画布操作
+Cancel current canvas operation	取消当前画布操作
+Decrease brush size	减小画笔大小
+Increase brush size	增大画笔大小
+Decrease brush hardness	降低画笔硬度
+Increase brush hardness	提高画笔硬度
+Previous blend mode	上一个混合模式
+Next blend mode	下一个混合模式
+Cycle shape kind	切换形状类型
+Opacity digit {0} (type two for exact %)	不透明度数字 {0}（输入两位设置精确百分比）
+Nudge {0} 1 px	向{0}微移 1 像素
+Nudge {0} 10 px	向{0}微移 10 像素
+Move selected pixels {0} 1 px	将所选像素向{0}移动 1 像素
+Move selected pixels {0} 10 px	将所选像素向{0}移动 10 像素
+Finish editing text	完成文字编辑
+Decrease tracking	减小字距
+Increase tracking	增大字距
+Decrease leading	减小行距
+Increase leading	增大行距
+Toggle Levels preview	切换色阶预览
+Choose a single key with optional modifiers.	请选择一个按键，可搭配修饰键。
+Text-editing shortcuts need Command, Option, or Control so they do not replace normal typing.	文字编辑快捷键必须包含 Command、Option 或 Control，以免替代正常输入。

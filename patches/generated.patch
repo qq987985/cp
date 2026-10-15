@@ -4828,3 +4828,31 @@
          button.target = context.coordinator
          button.action = #selector(Coordinator.choose(_:))
          button.menu?.delegate = context.coordinator
+--- a/Compositor.xcodeproj/project.pbxproj
++++ b/Compositor.xcodeproj/project.pbxproj
+@@ -197,6 +197,7 @@
+ 			hasScannedForEncodings = 0;
+ 			knownRegions = (
+ 				en,
++				"zh-Hans",
+ 				Base,
+ 			);
+ 			mainGroup = 8F311F90304F03BB0017D14F;
+@@ -431,7 +432,7 @@
+ 					"@executable_path/../Frameworks",
+ 				);
+ 				MARKETING_VERSION = 1.5.3;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.wonderassembly.compositor;
++				PRODUCT_BUNDLE_IDENTIFIER = local.compositor.zhcn;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				REGISTER_APP_GROUPS = YES;
+ 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+@@ -470,7 +471,7 @@
+ 					"@executable_path/../Frameworks",
+ 				);
+ 				MARKETING_VERSION = 1.5.3;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.wonderassembly.compositor;
++				PRODUCT_BUNDLE_IDENTIFIER = local.compositor.zhcn;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				REGISTER_APP_GROUPS = YES;
+ 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

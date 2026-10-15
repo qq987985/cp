@@ -368,35 +368,6 @@
       "kind": "inventory"
     }
   ],
-  "CMYK Proof Colors": [
-    {
-      "file": "Compositor/CompositorApp.swift",
-      "line": 145,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 113,
-      "kind": "inventory"
-    }
-  ],
-  "CMYK Gamut Warning": [
-    {
-      "file": "Compositor/CompositorApp.swift",
-      "line": 149,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 114,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/LayerMaskMenu.swift",
-      "line": 48,
-      "kind": "inventory"
-    }
-  ],
   "r": [
     {
       "file": "Compositor/CompositorApp.swift",
@@ -1768,111 +1739,6 @@
       "kind": "inventory"
     }
   ],
-  "Type (T)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Eyedropper (I)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Marquee (M)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Lasso (L)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Magic (W) · Tab switches Wand and Object": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Brush (B) · Eraser (E)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Spot Healing Brush (J)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Clone Stamp (S) · Option-click sets the source": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Smear (R)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Gradient (G)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Shape (U) · Shift-U switches Rectangle/Ellipse": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Crop (C)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Move / Transform (V)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Hand (H)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
-  "Zoom (Z)": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
   "Free": [
     {
       "file": "Compositor/Document/EditorSession.swift",
@@ -2113,25 +1979,6 @@
       "kind": "inventory"
     }
   ],
-  "Duplicate Layers": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 475,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 485,
-      "kind": "inventory"
-    }
-  ],
-  "Transform Layers": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 503,
-      "kind": "inventory"
-    }
-  ],
   "Layer {0}": [
     {
       "file": "Compositor/Document/EditorSession.swift",
@@ -2154,41 +2001,10 @@
       "kind": "inventory"
     }
   ],
-  "Reorder Layers": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 790,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 807,
-      "kind": "inventory"
-    }
-  ],
   "“{0}” has no images to import.": [
     {
       "file": "Compositor/Document/EditorSession.swift",
       "line": 832,
-      "kind": "inventory"
-    }
-  ],
-  "Import Photoshop File": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 856,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 1002,
-      "kind": "inventory"
-    }
-  ],
-  "Import Image": [
-    {
-      "file": "Compositor/Document/EditorSession.swift",
-      "line": 939,
       "kind": "inventory"
     }
   ],
@@ -2797,18 +2613,6 @@
       "kind": "inventory"
     }
   ],
-  "Group Layers": [
-    {
-      "file": "Compositor/Document/LayerGroups.swift",
-      "line": 220,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 105,
-      "kind": "inventory"
-    }
-  ],
   "New Folder": [
     {
       "file": "Compositor/Document/LayerGroups.swift",
@@ -2909,18 +2713,6 @@
     {
       "file": "Compositor/Document/LayerMask.swift",
       "line": 369,
-      "kind": "inventory"
-    }
-  ],
-  "Merge Layers": [
-    {
-      "file": "Compositor/Document/LayerMerge.swift",
-      "line": 16,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 108,
       "kind": "inventory"
     }
   ],
@@ -3230,18 +3022,6 @@
       "kind": "inventory"
     }
   ],
-  "Select All": [
-    {
-      "file": "Compositor/Document/Selection.swift",
-      "line": 346,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 99,
-      "kind": "inventory"
-    }
-  ],
   "XCTestConfigurationFilePath": [
     {
       "file": "Compositor/Document/SelectionClipboard.swift",
@@ -3520,18 +3300,6 @@
     {
       "file": "Compositor/Rendering/GPUCanvas.swift",
       "line": 343,
-      "kind": "inventory"
-    }
-  ],
-  "Select Subject": [
-    {
-      "file": "Compositor/Document/SubjectRemoval.swift",
-      "line": 140,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 100,
       "kind": "inventory"
     }
   ],
@@ -7297,20 +7065,6 @@
       "kind": "inventory"
     }
   ],
-  "Delete": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 58,
-      "kind": "inventory"
-    }
-  ],
-  "Return": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 58,
-      "kind": "inventory"
-    }
-  ],
   "Esc": [
     {
       "file": "Compositor/UI/KeyboardShortcuts.swift",
@@ -7322,286 +7076,6 @@
     {
       "file": "Compositor/UI/KeyboardShortcuts.swift",
       "line": 58,
-      "kind": "inventory"
-    }
-  ],
-  "Space": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 58,
-      "kind": "inventory"
-    }
-  ],
-  "Fill with Foreground": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 97,
-      "kind": "inventory"
-    }
-  ],
-  "Fill with Background": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 98,
-      "kind": "inventory"
-    }
-  ],
-  "Inverse Selection": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 100,
-      "kind": "inventory"
-    }
-  ],
-  "Invert Pixels / Mask": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 102,
-      "kind": "inventory"
-    }
-  ],
-  "Transform Layer / Selection": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 104,
-      "kind": "inventory"
-    }
-  ],
-  "Duplicate / Layer via Copy": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 104,
-      "kind": "inventory"
-    }
-  ],
-  "Toggle Clipping Mask": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 105,
-      "kind": "inventory"
-    }
-  ],
-  "Show Grid": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 109,
-      "kind": "inventory"
-    }
-  ],
-  "Show Guides": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 109,
-      "kind": "inventory"
-    }
-  ],
-  "Show Rulers": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 110,
-      "kind": "inventory"
-    }
-  ],
-  "Toggle Fullscreen: the canvas alone on black (Esc also leaves)": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 116,
-      "kind": "inventory"
-    }
-  ],
-  "Select tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 116,
-      "kind": "inventory"
-    }
-  ],
-  "Move / Transform tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 116,
-      "kind": "inventory"
-    }
-  ],
-  "Hand tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 116,
-      "kind": "inventory"
-    }
-  ],
-  "Zoom tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 117,
-      "kind": "inventory"
-    }
-  ],
-  "Brush tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 117,
-      "kind": "inventory"
-    }
-  ],
-  "Type tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 118,
-      "kind": "inventory"
-    }
-  ],
-  "Gradient tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 118,
-      "kind": "inventory"
-    }
-  ],
-  "Shape tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 118,
-      "kind": "inventory"
-    }
-  ],
-  "Eyedropper tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 119,
-      "kind": "inventory"
-    }
-  ],
-  "Marquee / cycle shape": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 119,
-      "kind": "inventory"
-    }
-  ],
-  "Lasso / cycle mode": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 120,
-      "kind": "inventory"
-    }
-  ],
-  "Blur / Smudge / Liquify": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 120,
-      "kind": "inventory"
-    }
-  ],
-  "Crop tool": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 120,
-      "kind": "inventory"
-    }
-  ],
-  "Swap foreground/background": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 121,
-      "kind": "inventory"
-    }
-  ],
-  "Reset colors": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 121,
-      "kind": "inventory"
-    }
-  ],
-  "Cycle tool mode": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 121,
-      "kind": "inventory"
-    }
-  ],
-  "Temporary Hand tool (hold)": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 122,
-      "kind": "inventory"
-    }
-  ],
-  "Delete selection / layer / effect / lasso point": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 122,
-      "kind": "inventory"
-    }
-  ],
-  "Apply current canvas operation": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 123,
-      "kind": "inventory"
-    }
-  ],
-  "Cancel current canvas operation": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 123,
-      "kind": "inventory"
-    }
-  ],
-  "Decrease brush size": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 124,
-      "kind": "inventory"
-    }
-  ],
-  "Increase brush size": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 124,
-      "kind": "inventory"
-    }
-  ],
-  "Decrease brush hardness": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 127,
-      "kind": "inventory"
-    }
-  ],
-  "Increase brush hardness": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 127,
-      "kind": "inventory"
-    }
-  ],
-  "Previous blend mode": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 128,
-      "kind": "inventory"
-    }
-  ],
-  "Next blend mode": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 128,
-      "kind": "inventory"
-    }
-  ],
-  "Cycle shape kind": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 129,
-      "kind": "inventory"
-    }
-  ],
-  "Opacity digit {0} (type two for exact %)": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 130,
       "kind": "inventory"
     }
   ],
@@ -7619,80 +7093,10 @@
       "kind": "inventory"
     }
   ],
-  "Nudge {0} 1 px": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 132,
-      "kind": "inventory"
-    }
-  ],
-  "Nudge {0} 10 px": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 132,
-      "kind": "inventory"
-    }
-  ],
-  "Move selected pixels {0} 1 px": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 133,
-      "kind": "inventory"
-    }
-  ],
-  "Move selected pixels {0} 10 px": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 133,
-      "kind": "inventory"
-    }
-  ],
-  "Finish editing text": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 135,
-      "kind": "inventory"
-    }
-  ],
-  "Decrease tracking": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 136,
-      "kind": "inventory"
-    }
-  ],
-  "Increase tracking": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 136,
-      "kind": "inventory"
-    }
-  ],
-  "Decrease leading": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 137,
-      "kind": "inventory"
-    }
-  ],
-  "Increase leading": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 137,
-      "kind": "inventory"
-    }
-  ],
   " by 10": [
     {
       "file": "Compositor/UI/KeyboardShortcuts.swift",
       "line": 139,
-      "kind": "inventory"
-    }
-  ],
-  "Toggle Levels preview": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 141,
       "kind": "inventory"
     }
   ],
@@ -7707,20 +7111,6 @@
     {
       "file": "Compositor/UI/KeyboardShortcuts.swift",
       "line": 151,
-      "kind": "inventory"
-    }
-  ],
-  "Choose a single key with optional modifiers.": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 203,
-      "kind": "inventory"
-    }
-  ],
-  "Text-editing shortcuts need Command, Option, or Control so they do not replace normal typing.": [
-    {
-      "file": "Compositor/UI/KeyboardShortcuts.swift",
-      "line": 205,
       "kind": "inventory"
     }
   ],
