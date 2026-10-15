@@ -2,7 +2,7 @@
 
 基于 [robbietilton/Compositor](https://github.com/robbietilton/Compositor) 的独立简体中文个人版工程。GitHub 仓库：[qq987985/cp](https://github.com/qq987985/cp)。保留英文源码快照，只对构建副本的显示边界添加翻译，不修改工程格式或枚举内部值。
 
-**状态：已通过 GitHub Actions 的 Xcode Release 构建、App 打包与签名校验；实际界面尚未验收。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
+**版本提示：build 49 已确认存在 Sparkle 加载签名导致的启动崩溃，请停用。build 50 已移除闲置更新框架，构建与实际启动验证记录见 reports/startup-fix.md。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
 
 ## 快速使用
 
@@ -19,7 +19,7 @@ bash scripts/run.sh
 
 也可双击 `一键准备.command`，生成可在 Xcode 打开的 `build/source/Compositor.xcodeproj`，选择 Compositor scheme。**推荐使用构建脚本**，其产物为 `build/products/Compositor-zh-CN.app`。它使用独立 bundle ID `local.compositor.zhcn`，不会覆盖已安装的原版。脚本不会安装 App、关闭系统安全机制或申请公证。需要本地确认允许打开时按 macOS 正常流程处理。
 
-英文备用启动：`bash scripts/run.sh en`；中文：`bash scripts/run.sh zh`。先退出当前 App，再切换语言。原版 Sparkle 二进制更新已在构建副本禁用，避免中文版本被英文官方版本覆盖；源码更新请使用下述流程。
+英文备用启动：`bash scripts/run.sh en`；中文：`bash scripts/run.sh zh`。先退出当前 App，再切换语言。构建副本完全移除了闲置的 Sparkle 更新器、框架依赖及其权限例外，避免加载签名冲突和被官方英文版覆盖；源码更新请使用下述流程。
 
 ## 目录
 
@@ -51,7 +51,7 @@ python3 scripts/localize.py prepare
 python3 scripts/verify.py
 ```
 
-fetch 先下载到 `build/fetch/`，成功后将旧 vendor 重命名备份，再写入新快照和提交号。重复拉取前须移动已有 `build/fetch/`，防止误覆盖。也可用 `--ref <完整提交号>` 固定版本。上游变化导致补丁锚点不匹配时脚本停止，需审核新源码与 `patches/anchors.json`，不会静默跳过补丁。首次编译 Sparkle 等 Xcode 包依赖需要网络。
+fetch 先下载到 `build/fetch/`，成功后将旧 vendor 重命名备份，再写入新快照和提交号。重复拉取前须移动已有 `build/fetch/`，防止误覆盖。也可用 `--ref <完整提交号>` 固定版本。上游变化导致补丁锚点不匹配时脚本停止，需审核新源码与 `patches/anchors.json`，不会静默跳过补丁。当前个人版不再依赖 Sparkle；Xcode 编译不需要下载此框架。
 
 ## 提取、翻译和导入
 
@@ -95,7 +95,7 @@ App 中依次验收：菜单栏、画笔与选区工具、图层右键、全部�
 
 ## GitHub 构建
 
-Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压内层 ZIP 得到 App。本次成功构建记录见 reports/cloud-build.md；后续是否成功以对应运行日志为准。
+Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压内层 ZIP 得到 App。当前流程会对最终 ZIP 解压副本进行框架链接、资源、严格签名和至少 10 秒的实际启动检查；任一失败则不上传 App。本次成功构建记录见 reports/cloud-build.md；后续是否成功以对应运行日志为准。
 
 ## 来源与限制
 

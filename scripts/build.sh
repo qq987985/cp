@@ -15,10 +15,16 @@ xcodebuild -project "$ROOT/build/source/Compositor.xcodeproj" -scheme Compositor
   PRODUCT_BUNDLE_IDENTIFIER=local.compositor.zhcn \
   INFOPLIST_KEY_CFBundleDisplayName='Compositor 中文版' \
   CODE_SIGN_IDENTITY=- CODE_SIGNING_ALLOWED=YES CODE_SIGN_STYLE=Manual \
-  DEVELOPMENT_TEAM= build 2>&1 | tee "$ROOT/build/logs/release.log"
+  DEVELOPMENT_TEAM= clean build 2>&1 | tee "$ROOT/build/logs/release.log"
 APP="$ROOT/build/DerivedData/Build/Products/Release/Compositor.app"
 test -d "$APP"
+python3 - "$ROOT/build/products/Compositor-zh-CN.app" <<'PY'
+from pathlib import Path
+import shutil, sys
+p = Path(sys.argv[1])
+if p.exists(): shutil.rmtree(p)
+PY
 ditto "$APP" "$ROOT/build/products/Compositor-zh-CN.app"
-codesign --verify --deep --strict "$ROOT/build/products/Compositor-zh-CN.app"
-echo "已构建并验证本地签名：$ROOT/build/products/Compositor-zh-CN.app"
+python3 "$ROOT/scripts/verify_bundle.py" "$ROOT/build/products/Compositor-zh-CN.app"
+echo "已构建并通过 App 资源、链接和本地签名检查：$ROOT/build/products/Compositor-zh-CN.app"
 echo '本地签名不等于 Apple 公证；此脚本不会安装应用或修改 Gatekeeper。'

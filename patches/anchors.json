@@ -41,16 +41,6 @@
     "new": "button.title = recording ? CN.text(\"Press keys…\") : chord.label"
   },
   {
-    "file": "Compositor/IO/CompositorApplicationDelegate.swift",
-    "old": "do { try self?.updater.start() } catch { NSLog(\"Sparkle didn't start: \\(error)\") }",
-    "new": "// Compositor-zh-CN: official binary updater is disabled in this personal build."
-  },
-  {
-    "file": "Compositor/CompositorApp.swift",
-    "old": "Button(CN.text(\"Check for Updates…\")) { applicationDelegate.updater.checkForUpdates() }",
-    "new": "Button(CN.text(\"Check for Updates…\")) {}.disabled(true)"
-  },
-  {
     "file": "Compositor/CompositorApp.swift",
     "old": "Button(kind.rawValue + (kind.isEditable ? \"…\" : \"\"))",
     "new": "Button(CN.text(kind.rawValue) + (kind.isEditable ? \"…\" : \"\"))",
@@ -142,5 +132,106 @@
     "old": "STRING_CATALOG_GENERATE_SYMBOLS = YES;",
     "new": "STRING_CATALOG_GENERATE_SYMBOLS = NO;",
     "count": 4
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "old": "import Sparkle\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+    "old": "import Sparkle\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+    "old": "    /// Checks the update feed and installs new versions (Sparkle), offering each one with what's new listed in it.\n    /// Started only after launch: its first-run prompt, shown during launch, kept the editor window from ever opening.\n    private let updateDriver = UpdateDriver()\n    private let updaterDelegate = UpdaterDelegate()\n    lazy var updater: SPUUpdater = {\n        let updater = SPUUpdater(hostBundle: .main, applicationBundle: .main, userDriver: updateDriver, delegate: updaterDelegate)\n        updateDriver.updater = updater\n        return updater\n    }()",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+    "old": "        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in\n            do { try self?.updater.start() } catch { NSLog(\"Sparkle didn't start: \\(error)\") }\n            #if DEBUG\n            // Trying an update against a local feed: check straight away.\n            if UserDefaults.standard.string(forKey: \"UpdateFeedURL\") != nil { self?.updater.checkForUpdates() }\n            #endif\n        }",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "old": "                    CommandGroup(after: .appInfo) {\n                        Button(CN.text(\"Check for Updates…\")) { applicationDelegate.updater.checkForUpdates() }\n                    }\n",
+    "new": ""
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "\t\t5A9C0D1E2F3A4B5C6D7E8F01 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */; };\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "\t\t\t\t5A9C0D1E2F3A4B5C6D7E8F01 /* Sparkle in Frameworks */,\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "\t\t\t\t5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */,\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "\t\t\t\t5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference \"Sparkle\" */,\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "/* Begin XCRemoteSwiftPackageReference section */\n\t\t5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference \"Sparkle\" */ = {\n\t\t\tisa = XCRemoteSwiftPackageReference;\n\t\t\trepositoryURL = \"https://github.com/sparkle-project/Sparkle\";\n\t\t\trequirement = {\n\t\t\t\tkind = upToNextMajorVersion;\n\t\t\t\tminimumVersion = 2.10.0;\n\t\t\t};\n\t\t};\n/* End XCRemoteSwiftPackageReference section */\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "/* Begin XCSwiftPackageProductDependency section */\n\t\t5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */ = {\n\t\t\tisa = XCSwiftPackageProductDependency;\n\t\t\tpackage = 5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference \"Sparkle\" */;\n\t\t\tproductName = Sparkle;\n\t\t};\n/* End XCSwiftPackageProductDependency section */\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Config/Info.plist",
+    "old": "\t<key>SUEnableInstallerLauncherService</key>\n\t<true/>\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Config/Info.plist",
+    "old": "\t<key>SUFeedURL</key>\n\t<string>https://raw.githubusercontent.com/robbietilton/Compositor/main/appcast.xml</string>\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Config/Info.plist",
+    "old": "\t<key>SUPublicEDKey</key>\n\t<string>KZvD724t8QpzTR4OGrHrsCWt538TJ/g/qrTZii+o214=</string>\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Config/Info.plist",
+    "old": "\t<key>SUEnableAutomaticChecks</key>\n\t<true/>\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Config/Compositor.entitlements",
+    "old": "    <!-- Sparkle installs updates through its helper services, which a sandboxed app reaches by name. -->\n    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>\n    <array>\n        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spks</string>\n        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spki</string>\n    </array>\n",
+    "new": "",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "CURRENT_PROJECT_VERSION = 49;",
+    "new": "CURRENT_PROJECT_VERSION = 50;",
+    "count": 6
   }
 ]

@@ -16,11 +16,6 @@
       "file": "Compositor/CompositorApp.swift",
       "line": 11,
       "kind": "inventory"
-    },
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 19,
-      "kind": "inventory"
     }
   ],
   "editor": [
@@ -7873,11 +7868,6 @@
       "file": "Compositor/IO/CompositorApplicationDelegate.swift",
       "line": 87,
       "kind": "inventory"
-    },
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 179,
-      "kind": "inventory"
     }
   ],
   "startDictation:": [
@@ -9924,90 +9914,6 @@
     {
       "file": "Compositor/IO/ProjectStore.swift",
       "line": 262,
-      "kind": "inventory"
-    }
-  ],
-  "CFBundleName": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 19,
-      "kind": "inventory"
-    }
-  ],
-  "CFBundleShortVersionString": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 20,
-      "kind": "inventory"
-    }
-  ],
-  "A new version of {0} is available!": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 24,
-      "kind": "inventory"
-    }
-  ],
-  "{0} {1} is ready to install — you have {2}.": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 26,
-      "kind": "inventory"
-    }
-  ],
-  "{0} {1} is now available — you have {2}. Would you like to download it now?": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 27,
-      "kind": "inventory"
-    }
-  ],
-  "Install and Relaunch": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 30,
-      "kind": "inventory"
-    }
-  ],
-  "Install Update": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 30,
-      "kind": "inventory"
-    }
-  ],
-  "Remind Me Later": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 31,
-      "kind": "inventory"
-    }
-  ],
-  "Skip This Version": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 32,
-      "kind": "inventory"
-    }
-  ],
-  "Automatically download and install updates in the future": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 35,
-      "kind": "inventory"
-    }
-  ],
-  "changes": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 109,
-      "kind": "inventory"
-    }
-  ],
-  "What’s new\n": [
-    {
-      "file": "Compositor/IO/UpdateDriver.swift",
-      "line": 121,
       "kind": "inventory"
     }
   ],

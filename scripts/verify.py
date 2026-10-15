@@ -31,6 +31,9 @@ class LocalizationTests(unittest.TestCase):
     def test_original_models_unchanged(self):
         base=ROOT/'vendor/Compositor'; built=ROOT/'build/source'
         for f in (base/'Compositor').rglob('*.swift'):
+            if f.relative_to(base).as_posix() == 'Compositor/IO/UpdateDriver.swift':
+                self.assertFalse((built/f.relative_to(base)).exists())
+                continue
             original=f.read_text(); localized=(built/f.relative_to(base)).read_text()
             pattern=r'^\s*case [^\n]*= "[^"\n]+"[^\n]*$'
             self.assertEqual(re.findall(pattern,original,re.M),re.findall(pattern,localized,re.M),str(f))
@@ -42,6 +45,16 @@ class LocalizationTests(unittest.TestCase):
         self.assertIn('local.compositor.zhcn',(ROOT/'scripts/build.sh').read_text())
         s=(ROOT/'build/source/Compositor/IO/CompositorApplicationDelegate.swift').read_text()
         self.assertNotIn('try self?.updater.start()',s)
+    def test_unused_updater_is_removed(self):
+        built=ROOT/'build/source'
+        for f in (built/'Compositor').rglob('*.swift'):
+            self.assertNotRegex(f.read_text(),r'\b(import Sparkle|SPUUpdater|UpdateDriver|UpdaterDelegate)\b',str(f))
+        self.assertNotIn('Sparkle',(built/'Compositor.xcodeproj/project.pbxproj').read_text())
+        self.assertFalse((built/'Compositor.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved').exists())
+        self.assertNotIn('<key>SU',(built/'Config/Info.plist').read_text())
+        self.assertNotIn('temporary-exception.mach-lookup',(built/'Config/Compositor.entitlements').read_text())
+        self.assertIn('com.apple.security.app-sandbox',(built/'Config/Compositor.entitlements').read_text())
+        self.assertNotIn('disable-library-validation',(built/'Config/Compositor.entitlements').read_text())
     def test_blend_identifiers(self):
         s=(ROOT/'build/source/Compositor/UI/BlendModePicker.swift').read_text()
         self.assertIn('representedObject = mode.rawValue',s)

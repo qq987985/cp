@@ -9,8 +9,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: xcodebuild -version
-      - run: bash scripts/build.sh
-      - run: ditto -c -k --sequesterRsrc --keepParent build/products/Compositor-zh-CN.app build/Compositor-zh-CN-app.zip
+      - name: Build Release app
+        run: bash scripts/build.sh
+      - name: Package and extract the distributable
+        run: |
+          ditto -c -k --sequesterRsrc --keepParent build/products/Compositor-zh-CN.app build/Compositor-zh-CN-app.zip
+          mkdir -p build/package-check
+          ditto -x -k build/Compositor-zh-CN-app.zip build/package-check
+      - name: Verify the extracted bundle
+        run: python3 scripts/verify_bundle.py build/package-check/Compositor-zh-CN.app
+      - name: Smoke launch the extracted app in the runner GUI session
+        run: python3 scripts/smoke_launch.py build/package-check/Compositor-zh-CN.app --seconds 12
       - uses: actions/upload-artifact@v4
         with:
           name: Compositor-zh-CN-app

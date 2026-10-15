@@ -153,6 +153,12 @@ def fetch(args):
 def prepare(args):
     if SOURCE.exists(): shutil.rmtree(SOURCE)
     shutil.copytree(VENDOR,SOURCE)
+    # Remove only audited upstream files, never the vendor snapshot.
+    for relative, expected in load(ROOT/'patches/remove-files.json').items():
+        f=SOURCE/relative
+        if hashlib.sha256(f.read_bytes()).hexdigest()!=expected:
+            raise SystemExit('待移除文件已变化，请审核：'+relative)
+        f.unlink()
     catalog={}; sites=[]; audit=[]; diffs=[]
     for f in sorted((SOURCE/'Compositor').rglob('*.swift')):
         rel=f.relative_to(SOURCE).as_posix(); before=f.read_text(); after=rewrite(before,rel,catalog,sites,audit)
@@ -163,10 +169,12 @@ def prepare(args):
         if count!=patch.get('count',1): raise SystemExit('补丁锚点变化，请审核：'+patch['file']+' '+patch['old'][:70])
         f.write_text(s.replace(patch['old'],patch['new']))
     shutil.copy(ROOT/'scripts/CN.swift',SOURCE/'Compositor/CN.swift')
-    for f in sorted(list((SOURCE/'Compositor').rglob('*.swift')) + [SOURCE/'Compositor.xcodeproj/project.pbxproj']):
-        old=VENDOR/f.relative_to(SOURCE)
-        if old.exists():
-            diffs.extend(difflib.unified_diff(old.read_text().splitlines(True),f.read_text().splitlines(True),fromfile='a/'+str(f.relative_to(SOURCE)),tofile='b/'+str(f.relative_to(SOURCE))))
+    for old in sorted(VENDOR.rglob('*')):
+        if not old.is_file(): continue
+        relative=old.relative_to(VENDOR); f=SOURCE/relative
+        if f.exists() and old.read_bytes()==f.read_bytes(): continue
+        # Every changed upstream text file, including deletions and build metadata.
+        diffs.extend(difflib.unified_diff(old.read_text().splitlines(True),f.read_text().splitlines(True) if f.exists() else [],fromfile='a/'+str(relative),tofile='b/'+str(relative) if f.exists() else '/dev/null'))
     (ROOT/'patches/generated.patch').write_text(''.join(diffs))
     save(ROOT/'reports/upstream-sha256.json', {str(f.relative_to(VENDOR)): hashlib.sha256(f.read_bytes()).hexdigest() for f in VENDOR.rglob('*') if f.is_file()})
     save(ROOT/'translations/inventory.json',catalog)

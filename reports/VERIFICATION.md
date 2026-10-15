@@ -1,3 +1,5 @@
+> 更正：早期验证遗漏实际启动测试，build 49 在用户机器上出现 DYLD/Sparkle 加载崩溃。下面为历史记录；build 50 新增的实际启动验证见 startup-fix.md。
+
 # 验证记录
 
 日期：2026-10-16。基线提交见 UPSTREAM_COMMIT，原版快照逐文件摘要见 upstream-sha256.json。

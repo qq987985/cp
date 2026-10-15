@@ -1,6 +1,13 @@
 --- a/Compositor/CompositorApp.swift
 +++ b/Compositor/CompositorApp.swift
-@@ -8,7 +8,7 @@
+@@ -1,6 +1,5 @@
+ import SwiftUI
+ import UniformTypeIdentifiers
+-import Sparkle
+ 
+ @main
+ struct CompositorApp: App {
+@@ -8,7 +7,7 @@
      @AppStorage("navigator.visible") private var showsNavigator = false
      private var session: EditorSession { applicationDelegate.session }
      var body: some Scene {
@@ -9,7 +16,7 @@
              ProjectWorkspaceView(applicationDelegate: applicationDelegate).roundedControls()
          }
              .defaultSize(width: 1180, height: 780)
-@@ -27,37 +27,37 @@
+@@ -27,37 +26,37 @@
                      // Dialog text fields keep native text undo; document history
                      // is unavailable while an import or modal edit is active.
                      if session.textDraft != nil || session.levels != nil || session.isProjectBusy || session.showsNewDocument || session.showsImporter || session.renamingLayerID != nil || session.transformEdit?.persistent == true {
@@ -54,7 +61,7 @@
                          ForEach(RecentProjects.shared.urls, id: \.self) { url in
                              Button(url.deletingPathExtension().lastPathComponent) {
                                  applicationDelegate.showEditor?()
-@@ -65,33 +65,33 @@
+@@ -65,33 +64,33 @@
                              }
                          }
                          Divider()
@@ -96,13 +103,13 @@
                          if let window = applicationDelegate.projects.window {
                              Task { await applicationDelegate.projects.close(window) }
                          }
-@@ -100,105 +100,105 @@
+@@ -99,106 +98,103 @@
+                 }
                  // Grouped: a commands builder takes at most ten items.
                  Group {
-                     CommandGroup(after: .appInfo) {
+-                    CommandGroup(after: .appInfo) {
 -                        Button("Check for Updates…") { applicationDelegate.updater.checkForUpdates() }
-+                        Button(CN.text("Check for Updates…")) {}.disabled(true)
-                     }
+-                    }
                      CommandGroup(after: .toolbar) {
 -                        Button("Search Commands…") {
 +                        Button(CN.text("Search Commands…")) {
@@ -233,7 +240,7 @@
                      }
                  }
                  CommandGroup(replacing: .pasteboard) {
-@@ -206,21 +206,21 @@
+@@ -206,21 +202,21 @@
                      // Cut, Copy and Paste check when chosen rather than through .disabled: what they depend on
                      // (the pasteboard, the copied pixels, the busy flag) isn't observed, so a disabled state could
                      // go stale — the first Paste after a Copy used to beep until something else refreshed the menu.
@@ -259,7 +266,7 @@
                          // On the New canvas screen an image on the clipboard makes the canvas, even with a size field
                          // being typed in; a size copied as text still goes into the field.
                          if session.canPasteImageAsNewCanvas { Task { await session.pasteImageAsNewCanvas() } }
-@@ -233,30 +233,30 @@
+@@ -233,30 +229,30 @@
                  }
                  CommandGroup(after: .pasteboard) {
                      Divider()
@@ -296,7 +303,7 @@
                          if NSApp.sendAction(#selector(NSText.selectAll(_:)), to: nil, from: nil) { return }
                          guard session.document != nil else { return }
                          session.selectAll()
-@@ -265,69 +265,69 @@
+@@ -265,69 +261,69 @@
                          // switching it off takes Select All away from every text field too. With no
                          // document and nothing being edited the action simply does nothing.
                          .configuredKeyboardShortcut("a")
@@ -387,7 +394,7 @@
                          Task { await session.repeatLastFilter() }
                      }
                          // ⌃⌘F, as in Photoshop; ⌘F is the command palette.
-@@ -339,55 +339,55 @@
+@@ -339,55 +335,55 @@
                      }
                  }
                  CommandMenu("Layer") {
@@ -665,15 +672,43 @@
          guard response == .alertFirstButtonReturn, let snapshot = projectSnapshot() else { return true }
 --- a/Compositor/IO/CompositorApplicationDelegate.swift
 +++ b/Compositor/IO/CompositorApplicationDelegate.swift
-@@ -81,7 +81,7 @@
+@@ -1,20 +1,11 @@
+ import AppKit
+-import Sparkle
+ 
+ final class CompositorApplicationDelegate: NSObject, NSApplicationDelegate {
+     let workspace = ProjectWorkspace()
+     var session: EditorSession { workspace.current.session }
+     var projects: ProjectController { workspace.current.controller }
+     var showEditor: (() -> Void)?
+-    /// Checks the update feed and installs new versions (Sparkle), offering each one with what's new listed in it.
+-    /// Started only after launch: its first-run prompt, shown during launch, kept the editor window from ever opening.
+-    private let updateDriver = UpdateDriver()
+-    private let updaterDelegate = UpdaterDelegate()
+-    lazy var updater: SPUUpdater = {
+-        let updater = SPUUpdater(hostBundle: .main, applicationBundle: .main, userDriver: updateDriver, delegate: updaterDelegate)
+-        updateDriver.updater = updater
+-        return updater
+-    }()
++
+ 
+     // Finder Open With and Dock drops, including files delivered during launch.
+     func application(_ application: NSApplication, open urls: [URL]) {
+@@ -80,13 +71,7 @@
+             guard let menu = note.object as? NSMenu, let index = note.userInfo?["NSMenuItemIndex"] as? Int else { return }
              MainActor.assumeIsolated { Self.removeIfSystemExtra(at: index, in: menu) }
          }
-         DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
+-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
 -            do { try self?.updater.start() } catch { NSLog("Sparkle didn't start: \(error)") }
-+            // Compositor-zh-CN: official binary updater is disabled in this personal build.
-             #if DEBUG
-             // Trying an update against a local feed: check straight away.
-             if UserDefaults.standard.string(forKey: "UpdateFeedURL") != nil { self?.updater.checkForUpdates() }
+-            #if DEBUG
+-            // Trying an update against a local feed: check straight away.
+-            if UserDefaults.standard.string(forKey: "UpdateFeedURL") != nil { self?.updater.checkForUpdates() }
+-            #endif
+-        }
++
+     }
+ 
+     /// Black over everything but the window's inside in Canvas Only: the screen around it, its rounded corners and the
 --- a/Compositor/IO/PSD/PSDDocumentBuilder.swift
 +++ b/Compositor/IO/PSD/PSDDocumentBuilder.swift
 @@ -27,7 +27,7 @@
@@ -821,30 +856,192 @@
      }
  
 --- a/Compositor/IO/UpdateDriver.swift
-+++ b/Compositor/IO/UpdateDriver.swift
-@@ -21,18 +21,18 @@
-         let downloaded = state.stage != .notDownloaded
-         let alert = NSAlert()
-         alert.icon = NSApp.applicationIconImage
++++ /dev/null
+@@ -1,184 +0,0 @@
+-import AppKit
+-import Sparkle
+-
+-/// Sparkle's own windows for every step of an update but one: the update it finds is offered in a plain alert, the
+-/// same few lines and buttons as Sparkle's compact one, with what's new listed under them rather than in a web view.
+-/// The feed gives what's new in the item's `<changes>`, plain text, a line a change. Not its `<description>`: older
+-/// copies, on Sparkle's own alert, would show that in a large release-notes box.
+-@MainActor final class UpdateDriver: NSObject, SPUUserDriver {
+-    private let standard = SPUStandardUserDriver(hostBundle: .main, delegate: nil)
+-    weak var updater: SPUUpdater?
+-
+-    func showUpdateFound(with appcastItem: SUAppcastItem, state: SPUUserUpdateState, reply: @escaping (SPUUserUpdateChoice) -> Void) {
+-        guard !appcastItem.isInformationOnlyUpdate else {
+-            standard.showUpdateFound(with: appcastItem, state: state, reply: reply)
+-            return
+-        }
+-        // Closes Sparkle's Checking… window, which it would close itself when showing its own alert.
+-        standard.dismissUpdateInstallation()
+-        let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "Compositor"
+-        let current = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
+-        let downloaded = state.stage != .notDownloaded
+-        let alert = NSAlert()
+-        alert.icon = NSApp.applicationIconImage
 -        alert.messageText = "A new version of \(name) is available!"
-+        alert.messageText = CN.text("A new version of \(name) is available!")
-         alert.informativeText = downloaded
-             ? "\(name) \(appcastItem.displayVersionString) is ready to install — you have \(current)."
-             : "\(name) \(appcastItem.displayVersionString) is now available — you have \(current). Would you like to download it now?"
-         // Always set, even with nothing listed, so the alert is the same width every time.
-         alert.accessoryView = Self.list(Self.changes(in: appcastItem))
-         alert.addButton(withTitle: downloaded ? "Install and Relaunch" : "Install Update")
+-        alert.informativeText = downloaded
+-            ? "\(name) \(appcastItem.displayVersionString) is ready to install — you have \(current)."
+-            : "\(name) \(appcastItem.displayVersionString) is now available — you have \(current). Would you like to download it now?"
+-        // Always set, even with nothing listed, so the alert is the same width every time.
+-        alert.accessoryView = Self.list(Self.changes(in: appcastItem))
+-        alert.addButton(withTitle: downloaded ? "Install and Relaunch" : "Install Update")
 -        alert.addButton(withTitle: "Remind Me Later")
 -        alert.addButton(withTitle: "Skip This Version")
-+        alert.addButton(withTitle: CN.text("Remind Me Later"))
-+        alert.addButton(withTitle: CN.text("Skip This Version"))
-         if let updater, updater.allowsAutomaticUpdates {
-             alert.showsSuppressionButton = true
+-        if let updater, updater.allowsAutomaticUpdates {
+-            alert.showsSuppressionButton = true
 -            alert.suppressionButton?.title = "Automatically download and install updates in the future"
-+            alert.suppressionButton?.title = CN.text("Automatically download and install updates in the future")
-             alert.suppressionButton?.state = updater.automaticallyDownloadsUpdates ? .on : .off
-         }
-         alert.layout()
+-            alert.suppressionButton?.state = updater.automaticallyDownloadsUpdates ? .on : .off
+-        }
+-        alert.layout()
+-        Self.trimAccessory(alert)
+-        Self.alignIconWithTitle(alert)
+-        NSApp.activate()
+-        // After Sparkle's call returns, so its updater isn't held up inside a modal run loop.
+-        DispatchQueue.main.async { [weak self] in
+-            let response = alert.runModal()
+-            if let button = alert.suppressionButton, alert.showsSuppressionButton {
+-                self?.updater?.automaticallyDownloadsUpdates = button.state == .on
+-            }
+-            switch response {
+-            case .alertFirstButtonReturn: reply(.install)
+-            case .alertThirdButtonReturn: reply(.skip)
+-            default: reply(.dismiss)
+-            }
+-        }
+-    }
+-
+-    /// NSAlert starts its text well below the icon's top in this layout. Everything but the icon moves up to just
+-    /// under it, and the window loses the same height off its top, so the icon keeps its place and the margins stay.
+-    private static func alignIconWithTitle(_ alert: NSAlert) {
+-        func descendants(_ view: NSView) -> [NSView] { view.subviews + view.subviews.flatMap(descendants) }
+-        let window = alert.window
+-        guard let content = window.contentView else { return }
+-        let views = descendants(content)
+-        guard let icon = views.compactMap({ $0 as? NSImageView }).first, let holder = icon.superview, !holder.isFlipped,
+-              let title = views.compactMap({ $0 as? NSTextField }).first(where: { $0.stringValue == alert.messageText })
+-        else { return }
+-        // The title's top sits a little below the icon's, where the icon's artwork starts inside its transparent margin.
+-        let lift = icon.convert(icon.bounds, to: nil).maxY - title.convert(title.bounds, to: nil).maxY - 5
+-        guard lift > 0 else { return }
+-        // The views don't all follow the window's top as it shrinks, so each is put back where it should be after:
+-        // the same distance from the bottom, which brings it up by the lift, and the icon the same distance from the top.
+-        let frames = holder.subviews.map(\.frame)
+-        var frame = window.frame
+-        frame.size.height -= lift
+-        frame.origin.y += lift
+-        window.setFrame(frame, display: false)
+-        for (view, old) in zip(holder.subviews, frames) {
+-            view.frame = view === icon ? old.offsetBy(dx: 0, dy: -lift) : old
+-        }
+-    }
+-
+-    /// The list goes in taller than it is (see `list`), for NSAlert's wide layout. The space under it comes out now: the
+-    /// list and the views NSAlert holds it in shrink to fit it, everything above moves down by the difference, and the
+-    /// window loses that off its top.
+-    private static func trimAccessory(_ alert: NSAlert) {
+-        let window = alert.window
+-        guard let content = window.contentView, !content.isFlipped, let holder = alert.accessoryView,
+-              let label = holder.subviews.first else { return }
+-        let trim = holder.frame.height - label.frame.height
+-        guard trim > 0 else { return }
+-        var chain = [holder]
+-        while let up = chain.last?.superview, up !== content { chain.append(up) }
+-        guard chain.last?.superview === content, let outer = chain.last else { return }
+-        let top = outer.frame.maxY
+-        let frames = content.subviews.map { view in
+-            view === outer ? NSRect(origin: view.frame.origin, size: NSSize(width: view.frame.width, height: view.frame.height - trim))
+-                : view.frame.minY >= top - 1 ? view.frame.offsetBy(dx: 0, dy: -trim) : view.frame
+-        }
+-        var frame = window.frame
+-        frame.size.height -= trim
+-        frame.origin.y += trim
+-        window.setFrame(frame, display: false)
+-        for (view, new) in zip(content.subviews, frames) { view.frame = new }
+-        for view in chain.dropLast() { view.frame.size.height -= trim }
+-        label.frame.origin.y = 0
+-    }
+-
+-    /// The item's changes as a list: a line each, any leading bullet or dash taken off.
+-    private static func changes(in item: SUAppcastItem) -> [String] {
+-        guard let text = item.propertiesDictionary["changes"] as? String else { return [] }
+-        return text.split(whereSeparator: \.isNewline)
+-            .map { $0.trimmingCharacters(in: .whitespaces).trimmingCharacters(in: CharacterSet(charactersIn: "•-* ")) }
+-            .filter { !$0.isEmpty }
+-    }
+-
+-    /// What's new, as text under the alert's message: no box, no scrolling, a bullet a line.
+-    private static func list(_ changes: [String]) -> NSView {
+-        let style = NSMutableParagraphStyle()
+-        style.headIndent = 12
+-        style.paragraphSpacing = 4
+-        style.tabStops = [NSTextTab(textAlignment: .left, location: 12)]
+-        let text = NSMutableAttributedString(string: changes.isEmpty ? "" : "What’s new\n", attributes: [
+-            .font: NSFont.systemFont(ofSize: NSFont.smallSystemFontSize, weight: .semibold),
+-            .foregroundColor: NSColor.labelColor, .paragraphStyle: style,
+-        ])
+-        text.append(NSAttributedString(string: changes.map { "•\t\($0)" }.joined(separator: "\n"), attributes: [
+-            .font: NSFont.systemFont(ofSize: NSFont.smallSystemFontSize),
+-            .foregroundColor: NSColor.secondaryLabelColor, .paragraphStyle: style,
+-        ]))
+-        // NSAlert stacks everything (icon above the text, buttons in a column) unless that would make it too tall, and it
+-        // stacks everything too if the accessory view is wider than about 265 points. So the view goes in 260 wide and 300
+-        // tall, tall enough for the wide layout whatever the list, and `trimAccessory` takes the extra height back out.
+-        // The text runs on past the view's edge, unclipped, across the alert's whole text column, 489 points.
+-        let label = NSTextField(labelWithAttributedString: text)
+-        label.maximumNumberOfLines = 0
+-        label.preferredMaxLayoutWidth = 480
+-        let size = changes.isEmpty ? .zero : label.fittingSize
+-        let holder = NSView(frame: NSRect(x: 0, y: 0, width: 260, height: max(size.height, 300)))
+-        label.frame = NSRect(x: 0, y: holder.frame.height - size.height, width: size.width, height: size.height)
+-        holder.clipsToBounds = false
+-        holder.addSubview(label)
+-        return holder
+-    }
+-
+-    // Every other step, as Sparkle draws it.
+-    func show(_ request: SPUUpdatePermissionRequest, reply: @escaping (SUUpdatePermissionResponse) -> Void) {
+-        standard.show(request, reply: reply)
+-    }
+-    func showUserInitiatedUpdateCheck(cancellation: @escaping () -> Void) { standard.showUserInitiatedUpdateCheck(cancellation: cancellation) }
+-    func showUpdateReleaseNotes(with downloadData: SPUDownloadData) {}
+-    func showUpdateReleaseNotesFailedToDownloadWithError(_ error: any Error) {}
+-    func showUpdateNotFoundWithError(_ error: any Error, acknowledgement: @escaping () -> Void) {
+-        standard.showUpdateNotFoundWithError(error, acknowledgement: acknowledgement)
+-    }
+-    func showUpdaterError(_ error: any Error, acknowledgement: @escaping () -> Void) {
+-        standard.showUpdaterError(error, acknowledgement: acknowledgement)
+-    }
+-    func showDownloadInitiated(cancellation: @escaping () -> Void) { standard.showDownloadInitiated(cancellation: cancellation) }
+-    func showDownloadDidReceiveExpectedContentLength(_ expectedContentLength: UInt64) {
+-        standard.showDownloadDidReceiveExpectedContentLength(expectedContentLength)
+-    }
+-    func showDownloadDidReceiveData(ofLength length: UInt64) { standard.showDownloadDidReceiveData(ofLength: length) }
+-    func showDownloadDidStartExtractingUpdate() { standard.showDownloadDidStartExtractingUpdate() }
+-    func showExtractionReceivedProgress(_ progress: Double) { standard.showExtractionReceivedProgress(progress) }
+-    func showReady(toInstallAndRelaunch reply: @escaping (SPUUserUpdateChoice) -> Void) { standard.showReady(toInstallAndRelaunch: reply) }
+-    func showInstallingUpdate(withApplicationTerminated applicationTerminated: Bool, retryTerminatingApplication: @escaping () -> Void) {
+-        standard.showInstallingUpdate(withApplicationTerminated: applicationTerminated, retryTerminatingApplication: retryTerminatingApplication)
+-    }
+-    func showUpdateInstalledAndRelaunched(_ relaunched: Bool, acknowledgement: @escaping () -> Void) {
+-        standard.showUpdateInstalledAndRelaunched(relaunched, acknowledgement: acknowledgement)
+-    }
+-    func showUpdateInFocus() { standard.showUpdateInFocus() }
+-    func dismissUpdateInstallation() { standard.dismissUpdateInstallation() }
+-}
+-
+-/// In a debug build, `-UpdateFeedURL <url>` on the command line checks that feed instead, to try an update locally.
+-final class UpdaterDelegate: NSObject, SPUUpdaterDelegate {
+-    func feedURLString(for updater: SPUUpdater) -> String? {
+-        #if DEBUG
+-        return UserDefaults.standard.string(forKey: "UpdateFeedURL")
+-        #else
+-        return nil
+-        #endif
+-    }
+-}
 --- a/Compositor/Rendering/EditorCanvas.swift
 +++ b/Compositor/Rendering/EditorCanvas.swift
 @@ -667,7 +667,7 @@
@@ -4891,7 +5088,31 @@
          button.menu?.delegate = context.coordinator
 --- a/Compositor.xcodeproj/project.pbxproj
 +++ b/Compositor.xcodeproj/project.pbxproj
-@@ -197,6 +197,7 @@
+@@ -7,7 +7,6 @@
+ 	objects = {
+ 
+ /* Begin PBXBuildFile section */
+-		5A9C0D1E2F3A4B5C6D7E8F01 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */; };
+ /* End PBXBuildFile section */
+ 
+ /* Begin PBXContainerItemProxy section */
+@@ -56,7 +55,6 @@
+ 			isa = PBXFrameworksBuildPhase;
+ 			buildActionMask = 2147483647;
+ 			files = (
+-				5A9C0D1E2F3A4B5C6D7E8F01 /* Sparkle in Frameworks */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+ 		};
+@@ -117,7 +115,6 @@
+ 			);
+ 			name = Compositor;
+ 			packageProductDependencies = (
+-				5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */,
+ 			);
+ 			productName = Compositor;
+ 			productReference = 8F311F99304F03BB0017D14F /* Compositor.app */;
+@@ -197,12 +194,12 @@
  			hasScannedForEncodings = 0;
  			knownRegions = (
  				en,
@@ -4899,7 +5120,13 @@
  				Base,
  			);
  			mainGroup = 8F311F90304F03BB0017D14F;
-@@ -339,7 +340,7 @@
+ 			minimizedProjectReferenceProxies = 1;
+ 			packageReferences = (
+-				5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference "Sparkle" */,
+ 			);
+ 			preferredProjectObjectVersion = 77;
+ 			productRefGroup = 8F311F9A304F03BB0017D14F /* Products */;
+@@ -339,7 +336,7 @@
  				MTL_FAST_MATH = YES;
  				ONLY_ACTIVE_ARCH = YES;
  				SDKROOT = macosx;
@@ -4908,7 +5135,7 @@
  				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
  				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
  			};
-@@ -399,7 +400,7 @@
+@@ -399,7 +396,7 @@
  				MTL_ENABLE_DEBUG_INFO = NO;
  				MTL_FAST_MATH = YES;
  				SDKROOT = macosx;
@@ -4917,7 +5144,16 @@
  				SWIFT_COMPILATION_MODE = wholemodule;
  			};
  			name = Release;
-@@ -431,10 +432,10 @@
+@@ -413,7 +410,7 @@
+ 				CODE_SIGN_IDENTITY = "-";
+ 				CODE_SIGN_STYLE = Manual;
+ 				COMBINE_HIDPI_IMAGES = YES;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = "";
+ 				ENABLE_APP_SANDBOX = YES;
+@@ -431,10 +428,10 @@
  					"@executable_path/../Frameworks",
  				);
  				MARKETING_VERSION = 1.5.3;
@@ -4930,7 +5166,16 @@
  				SWIFT_APPROACHABLE_CONCURRENCY = YES;
  				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
  				SWIFT_EMIT_LOC_STRINGS = YES;
-@@ -470,10 +471,10 @@
+@@ -452,7 +449,7 @@
+ 				CODE_SIGN_ENTITLEMENTS = Config/Compositor.entitlements;
+ 				CODE_SIGN_STYLE = Automatic;
+ 				COMBINE_HIDPI_IMAGES = YES;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
+ 				ENABLE_APP_SANDBOX = YES;
+@@ -470,10 +467,10 @@
  					"@executable_path/../Frameworks",
  				);
  				MARKETING_VERSION = 1.5.3;
@@ -4943,3 +5188,114 @@
  				SWIFT_APPROACHABLE_CONCURRENCY = YES;
  				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
  				SWIFT_EMIT_LOC_STRINGS = YES;
+@@ -488,7 +485,7 @@
+ 			buildSettings = {
+ 				BUNDLE_LOADER = "$(TEST_HOST)";
+ 				CODE_SIGN_STYLE = Automatic;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
+ 				GENERATE_INFOPLIST_FILE = YES;
+@@ -510,7 +507,7 @@
+ 			buildSettings = {
+ 				BUNDLE_LOADER = "$(TEST_HOST)";
+ 				CODE_SIGN_STYLE = Automatic;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
+ 				GENERATE_INFOPLIST_FILE = YES;
+@@ -531,7 +528,7 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				CODE_SIGN_STYLE = Automatic;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
+ 				GENERATE_INFOPLIST_FILE = YES;
+@@ -551,7 +548,7 @@
+ 			isa = XCBuildConfiguration;
+ 			buildSettings = {
+ 				CODE_SIGN_STYLE = Automatic;
+-				CURRENT_PROJECT_VERSION = 49;
++				CURRENT_PROJECT_VERSION = 50;
+ 				DEAD_CODE_STRIPPING = YES;
+ 				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
+ 				GENERATE_INFOPLIST_FILE = YES;
+@@ -608,24 +605,7 @@
+ 		};
+ /* End XCConfigurationList section */
+ 
+-/* Begin XCRemoteSwiftPackageReference section */
+-		5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+-			isa = XCRemoteSwiftPackageReference;
+-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+-			requirement = {
+-				kind = upToNextMajorVersion;
+-				minimumVersion = 2.10.0;
+-			};
+-		};
+-/* End XCRemoteSwiftPackageReference section */
+-
+-/* Begin XCSwiftPackageProductDependency section */
+-		5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */ = {
+-			isa = XCSwiftPackageProductDependency;
+-			package = 5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference "Sparkle" */;
+-			productName = Sparkle;
+-		};
+-/* End XCSwiftPackageProductDependency section */
++
+ 	};
+ 	rootObject = 8F311F91304F03BB0017D14F /* Project object */;
+ }
+--- a/Compositor.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
++++ /dev/null
+@@ -1,15 +0,0 @@
+-{
+-  "originHash" : "e721da7f9826abdffcb6185e886155efa2514bd6234475f1afa893e29eb258d6",
+-  "pins" : [
+-    {
+-      "identity" : "sparkle",
+-      "kind" : "remoteSourceControl",
+-      "location" : "https://github.com/sparkle-project/Sparkle",
+-      "state" : {
+-        "revision" : "eef1a539a373c1f1a320624b1130fc5de7b2e100",
+-        "version" : "2.10.0"
+-      }
+-    }
+-  ],
+-  "version" : 3
+-}
+--- a/Config/Compositor.entitlements
++++ b/Config/Compositor.entitlements
+@@ -8,11 +8,5 @@
+     <true/>
+     <key>com.apple.security.network.client</key>
+     <true/>
+-    <!-- Sparkle installs updates through its helper services, which a sandboxed app reaches by name. -->
+-    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+-    <array>
+-        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spks</string>
+-        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spki</string>
+-    </array>
+ </dict>
+ </plist>
+--- a/Config/Info.plist
++++ b/Config/Info.plist
+@@ -54,14 +54,6 @@
+ 			<string>Alternate</string>
+ 		</dict>
+ 	</array>
+-	<key>SUEnableInstallerLauncherService</key>
+-	<true/>
+-	<key>SUFeedURL</key>
+-	<string>https://raw.githubusercontent.com/robbietilton/Compositor/main/appcast.xml</string>
+-	<key>SUPublicEDKey</key>
+-	<string>KZvD724t8QpzTR4OGrHrsCWt538TJ/g/qrTZii+o214=</string>
+-	<key>SUEnableAutomaticChecks</key>
+-	<true/>
+ 	<key>UTExportedTypeDeclarations</key>
+ 	<array>
+ 		<dict>

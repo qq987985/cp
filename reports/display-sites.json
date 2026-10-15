@@ -1061,26 +1061,6 @@
     "kind": "AppKit literal"
   },
   {
-    "file": "Compositor/IO/UpdateDriver.swift",
-    "key": "A new version of {0} is available!",
-    "kind": "AppKit literal"
-  },
-  {
-    "file": "Compositor/IO/UpdateDriver.swift",
-    "key": "Remind Me Later",
-    "kind": "AppKit literal"
-  },
-  {
-    "file": "Compositor/IO/UpdateDriver.swift",
-    "key": "Skip This Version",
-    "kind": "AppKit literal"
-  },
-  {
-    "file": "Compositor/IO/UpdateDriver.swift",
-    "key": "Automatically download and install updates in the future",
-    "kind": "AppKit literal"
-  },
-  {
     "file": "Compositor/Rendering/EditorCanvas.swift",
     "line": 670,
     "key": "Canvas",

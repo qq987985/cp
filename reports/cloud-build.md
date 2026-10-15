@@ -1,3 +1,5 @@
+> 历史记录：此 build 49 虽通过编译和静态签名检查，后来已确认启动时存在 Sparkle 加载签名冲突。请勿再下载此历史产物。build 50 修复记录见 [startup-fix.md](startup-fix.md)。
+
 # 云端 Release 构建记录
 
 日期：2026-10-16（北京时间）。
