@@ -1452,18 +1452,6 @@
       "kind": "inventory"
     }
   ],
-  "Convert to 8-Bit": [
-    {
-      "file": "Compositor/Document/DeepLayers.swift",
-      "line": 325,
-      "kind": "inventory"
-    },
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 188,
-      "kind": "inventory"
-    }
-  ],
   "Distort": [
     {
       "file": "Compositor/Document/Distort.swift",
@@ -5055,20 +5043,6 @@
       "kind": "inventory"
     }
   ],
-  "Save Project As": [
-    {
-      "file": "Compositor/IO/ProjectController.swift",
-      "line": 224,
-      "kind": "inventory"
-    }
-  ],
-  "Save Project": [
-    {
-      "file": "Compositor/IO/ProjectController.swift",
-      "line": 224,
-      "kind": "inventory"
-    }
-  ],
   "Couldn’t save the project": [
     {
       "file": "Compositor/IO/ProjectController.swift",
@@ -7403,34 +7377,6 @@
     {
       "file": "Compositor/UI/NativeLayerList.swift",
       "line": 143,
-      "kind": "inventory"
-    }
-  ],
-  "Enable Mask": [
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 219,
-      "kind": "inventory"
-    }
-  ],
-  "Disable Mask": [
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 219,
-      "kind": "inventory"
-    }
-  ],
-  "Link Mask": [
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 232,
-      "kind": "inventory"
-    }
-  ],
-  "Unlink Mask": [
-    {
-      "file": "Compositor/UI/NativeLayerList.swift",
-      "line": 232,
       "kind": "inventory"
     }
   ],

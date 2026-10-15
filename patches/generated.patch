@@ -776,6 +776,15 @@
              sheet.contentViewController = NSHostingController(rootView: GridSettingsSheet(
                  session: session, grid: original.grid, appearance: original.appearance,
                  preview: { [session] grid, appearance in
+@@ -221,7 +221,7 @@
+             panel.canCreateDirectories = true
+             panel.isExtensionHidden = false
+             panel.nameFieldStringValue = session.projectURL?.lastPathComponent ?? "Untitled.comp"
+-            panel.title = asNew ? "Save Project As" : "Save Project"
++            panel.title = CN.text(asNew ? "Save Project As" : "Save Project")
+             let response: NSApplication.ModalResponse
+             if let window { response = await panel.beginSheetModal(for: window) }
+             else { response = await panel.begin() }
 @@ -273,7 +273,7 @@
              panel.allowsMultipleSelection = false
              panel.canChooseDirectories = false
@@ -4040,7 +4049,23 @@
              renameItem.target = self
              renameItem.isEnabled = validateMenuItem(renameItem)
              menu.addItem(renameItem)
-@@ -159,21 +159,21 @@
+@@ -144,7 +144,7 @@
+             } else {
+                 deleteTitle = "Delete Layer"
+             }
+-            let deleteItem = NSMenuItem(title: deleteTitle, action: #selector(deleteLayerAction), keyEquivalent: "")
++            let deleteItem = NSMenuItem(title: CN.text(deleteTitle), action: #selector(deleteLayerAction), keyEquivalent: "")
+             deleteItem.target = self
+             deleteItem.isEnabled = validateMenuItem(deleteItem)
+             menu.addItem(deleteItem)
+@@ -153,45 +153,45 @@
+ 
+             // 4. Create Clipping Mask / Release Clipping Mask
+             let clippingTitle = session.activeLayer?.maskSourceID != nil ? "Release Clipping Mask" : "Create Clipping Mask"
+-            let clippingItem = NSMenuItem(title: clippingTitle, action: #selector(toggleClippingMaskAction), keyEquivalent: "")
++            let clippingItem = NSMenuItem(title: CN.text(clippingTitle), action: #selector(toggleClippingMaskAction), keyEquivalent: "")
+             clippingItem.target = self
+             clippingItem.isEnabled = validateMenuItem(clippingItem)
              menu.addItem(clippingItem)
  
              // 5. Group Selected Layers
@@ -4065,7 +4090,19 @@
              moveOutItem.target = self
              moveOutItem.isEnabled = validateMenuItem(moveOutItem)
              menu.addItem(moveOutItem)
-@@ -191,7 +191,7 @@
+ 
+             // 7. Merge Down / Merge Layers / Merge Group
+-            let mergeItem = NSMenuItem(title: session.mergeTitle, action: #selector(mergeLayersAction), keyEquivalent: "")
++            let mergeItem = NSMenuItem(title: CN.text(session.mergeTitle), action: #selector(mergeLayersAction), keyEquivalent: "")
+             mergeItem.target = self
+             mergeItem.isEnabled = validateMenuItem(mergeItem)
+             menu.addItem(mergeItem)
+ 
+             // 7b. Convert to 16-Bit / Convert to 8-Bit
+             let depthTitle = session.activeLayer?.asset?.deep == nil ? "Convert to 16-Bit" : "Convert to 8-Bit"
+-            let depthItem = NSMenuItem(title: depthTitle, action: #selector(convertDepthAction), keyEquivalent: "")
++            let depthItem = NSMenuItem(title: CN.text(depthTitle), action: #selector(convertDepthAction), keyEquivalent: "")
+             depthItem.target = self
              depthItem.isEnabled = validateMenuItem(depthItem)
              // An HDR layer can go to 16 bits as well as to 8.
              if session.activeLayer?.asset?.isHDR == true {
@@ -4092,7 +4129,14 @@
              hideAllItem.target = self
              hideAllItem.isEnabled = validateMenuItem(hideAllItem)
              addMaskSubmenu.addItem(hideAllItem)
-@@ -223,7 +223,7 @@
+@@ -217,20 +217,20 @@
+ 
+             // 9. Enable Mask / Disable Mask
+             let toggleMaskTitle = session.activeLayer?.mask?.isEnabled == false ? "Enable Mask" : "Disable Mask"
+-            let toggleMaskItem = NSMenuItem(title: toggleMaskTitle, action: #selector(toggleMaskAction), keyEquivalent: "")
++            let toggleMaskItem = NSMenuItem(title: CN.text(toggleMaskTitle), action: #selector(toggleMaskAction), keyEquivalent: "")
+             toggleMaskItem.target = self
+             toggleMaskItem.isEnabled = validateMenuItem(toggleMaskItem)
              menu.addItem(toggleMaskItem)
  
              // 10. Delete Mask
@@ -4101,6 +4145,23 @@
              deleteMaskItem.target = self
              deleteMaskItem.isEnabled = validateMenuItem(deleteMaskItem)
              menu.addItem(deleteMaskItem)
+ 
+             // 11. Link Mask / Unlink Mask
+             let linkMaskTitle = session.activeLayer?.mask?.isLinked == false ? "Link Mask" : "Unlink Mask"
+-            let linkMaskItem = NSMenuItem(title: linkMaskTitle, action: #selector(toggleMaskLinkAction), keyEquivalent: "")
++            let linkMaskItem = NSMenuItem(title: CN.text(linkMaskTitle), action: #selector(toggleMaskLinkAction), keyEquivalent: "")
+             linkMaskItem.target = self
+             linkMaskItem.isEnabled = validateMenuItem(linkMaskItem)
+             menu.addItem(linkMaskItem)
+@@ -239,7 +239,7 @@
+ 
+             // 12. Hide Layer / Show Layer
+             let visibilityTitle = session.activeLayer?.isVisible == false ? "Show Layer" : "Hide Layer"
+-            let visibilityItem = NSMenuItem(title: visibilityTitle, action: #selector(toggleVisibilityAction), keyEquivalent: "")
++            let visibilityItem = NSMenuItem(title: CN.text(visibilityTitle), action: #selector(toggleVisibilityAction), keyEquivalent: "")
+             visibilityItem.target = self
+             visibilityItem.isEnabled = validateMenuItem(visibilityItem)
+             menu.addItem(visibilityItem)
 @@ -278,7 +278,7 @@
              case #selector(toggleVisibilityAction):
                  return session.canEditLayers && session.activeLayer != nil
@@ -4838,7 +4899,25 @@
  				Base,
  			);
  			mainGroup = 8F311F90304F03BB0017D14F;
-@@ -431,7 +432,7 @@
+@@ -339,7 +340,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				ONLY_ACTIVE_ARCH = YES;
+ 				SDKROOT = macosx;
+-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
++				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+ 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+ 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+ 			};
+@@ -399,7 +400,7 @@
+ 				MTL_ENABLE_DEBUG_INFO = NO;
+ 				MTL_FAST_MATH = YES;
+ 				SDKROOT = macosx;
+-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
++				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+ 				SWIFT_COMPILATION_MODE = wholemodule;
+ 			};
+ 			name = Release;
+@@ -431,10 +432,10 @@
  					"@executable_path/../Frameworks",
  				);
  				MARKETING_VERSION = 1.5.3;
@@ -4846,8 +4925,12 @@
 +				PRODUCT_BUNDLE_IDENTIFIER = local.compositor.zhcn;
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				REGISTER_APP_GROUPS = YES;
- 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-@@ -470,7 +471,7 @@
+-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
++				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+ 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+ 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+ 				SWIFT_EMIT_LOC_STRINGS = YES;
+@@ -470,10 +471,10 @@
  					"@executable_path/../Frameworks",
  				);
  				MARKETING_VERSION = 1.5.3;
@@ -4855,4 +4938,8 @@
 +				PRODUCT_BUNDLE_IDENTIFIER = local.compositor.zhcn;
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				REGISTER_APP_GROUPS = YES;
- 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
++				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+ 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+ 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+ 				SWIFT_EMIT_LOC_STRINGS = YES;

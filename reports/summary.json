@@ -1,8 +1,8 @@
 {
   "commit": "365b5745eda537f984f3d5bed1e53c361dbc9c91",
   "inventory": 1742,
-  "dictionary": 1749,
-  "untranslated_candidates": 821,
+  "dictionary": 1756,
+  "untranslated_candidates": 814,
   "literal_ui_keys": 712,
   "missing_literal_ui_keys": 0,
   "xcode_build": "NOT VERIFIED",

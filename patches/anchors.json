@@ -96,5 +96,51 @@
     "file": "Compositor.xcodeproj/project.pbxproj",
     "old": "knownRegions = (\n\t\t\t\ten,\n\t\t\t\tBase,",
     "new": "knownRegions = (\n\t\t\t\ten,\n\t\t\t\t\"zh-Hans\",\n\t\t\t\tBase,"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: deleteTitle,",
+    "new": "NSMenuItem(title: CN.text(deleteTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: clippingTitle,",
+    "new": "NSMenuItem(title: CN.text(clippingTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: session.mergeTitle,",
+    "new": "NSMenuItem(title: CN.text(session.mergeTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: depthTitle,",
+    "new": "NSMenuItem(title: CN.text(depthTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: toggleMaskTitle,",
+    "new": "NSMenuItem(title: CN.text(toggleMaskTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: linkMaskTitle,",
+    "new": "NSMenuItem(title: CN.text(linkMaskTitle),"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSMenuItem(title: visibilityTitle,",
+    "new": "NSMenuItem(title: CN.text(visibilityTitle),"
+  },
+  {
+    "file": "Compositor/IO/ProjectController.swift",
+    "old": "panel.title = asNew ? \"Save Project As\" : \"Save Project\"",
+    "new": "panel.title = CN.text(asNew ? \"Save Project As\" : \"Save Project\")"
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "STRING_CATALOG_GENERATE_SYMBOLS = YES;",
+    "new": "STRING_CATALOG_GENERATE_SYMBOLS = NO;",
+    "count": 4
   }
 ]

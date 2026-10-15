@@ -1747,5 +1747,12 @@
   "Increase leading": "增大行距",
   "Toggle Levels preview": "切换色阶预览",
   "Choose a single key with optional modifiers.": "请选择一个按键，可搭配修饰键。",
-  "Text-editing shortcuts need Command, Option, or Control so they do not replace normal typing.": "文字编辑快捷键必须包含 Command、Option 或 Control，以免替代正常输入。"
+  "Text-editing shortcuts need Command, Option, or Control so they do not replace normal typing.": "文字编辑快捷键必须包含 Command、Option 或 Control，以免替代正常输入。",
+  "Convert to 8-Bit": "转换为 8 位",
+  "Enable Mask": "启用蒙版",
+  "Disable Mask": "禁用蒙版",
+  "Link Mask": "链接蒙版",
+  "Unlink Mask": "取消链接蒙版",
+  "Save Project As": "工程另存为",
+  "Save Project": "保存工程"
 }
