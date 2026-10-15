@@ -4,6 +4,12 @@
 
 **版本提示：build 49 已确认存在 Sparkle 加载签名导致的启动崩溃，请停用。build 50 已移除闲置更新框架，并通过云端及本机启动检查（本机持续运行 30 秒且主窗口正常显示），详见 reports/startup-fix.md。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
 
+## 下载
+
+[下载 Mac Apple Silicon 版 build 50](https://github.com/qq987985/cp/releases/download/zh-cn-v1.5.3-build50/Compositor-zh-CN-build50.zip) · [发布说明与全部文件](https://github.com/qq987985/cp/releases/tag/zh-cn-v1.5.3-build50)
+
+解压得到 `Compositor-zh-CN.app`，用 build 50 替换旧 build 49。无需自行编译。源码和 SHA-256 校验文件也在同一发布页面。
+
 ## 快速使用
 
 需要 macOS 26+、Apple Silicon、Python 3；编译还需要完整 Xcode 26+（Command Line Tools 不足）。脚本仅使用 Python 标准库，不自动安装工具。
