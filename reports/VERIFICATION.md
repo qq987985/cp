@@ -17,3 +17,7 @@
 本机仅安装 Command Line Tools，Release 脚本检测后以状态 2 停止。GitHub Actions 结果以运行页面为准。旧聊天 ZIP 当前不存在，未迁移。没有调用在线翻译服务。
 
 静态显示缺译文为零不代表完整汉化率为 100%。全量未译候选仍包含内部标识、日志等，需要分类审查，不能全部替换。
+
+## 云端构建补充
+
+后续已由 GitHub Actions 成功执行完整 Xcode Release 构建、打包和本地签名验证。本机再次验证下载 App 的签名、独立 bundle ID、中文 lproj 和 JSON 资源均通过。源码提交及成功日志见 [cloud-build.md](cloud-build.md)。上文“本机缺少 Xcode”仍然成立；App 实际界面及完整功能仍未验收。

@@ -5,6 +5,14 @@
   "untranslated_candidates": 814,
   "literal_ui_keys": 712,
   "missing_literal_ui_keys": 0,
-  "xcode_build": "NOT VERIFIED",
-  "ui_review": "NOT VERIFIED"
+  "xcode_build": "PASS (GitHub Actions)",
+  "ui_review": "NOT VERIFIED",
+  "build_source_commit": "886f95bf2dbb13569ee35299b2fe631bc1b46e91",
+  "build_url": "https://github.com/qq987985/cp/actions/runs/38825083918",
+  "app_bundle_id": "local.compositor.zhcn",
+  "app_resource_check": "PASS",
+  "swift_parse": "PASS",
+  "swift_parse_files": 157,
+  "regression_tests": 9,
+  "runtime_helper_checks": 6
 }

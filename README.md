@@ -2,7 +2,7 @@
 
 基于 [robbietilton/Compositor](https://github.com/robbietilton/Compositor) 的独立简体中文个人版工程。GitHub 仓库：[qq987985/cp](https://github.com/qq987985/cp)。保留英文源码快照，只对构建副本的显示边界添加翻译，不修改工程格式或枚举内部值。
 
-**状态：汉化自动化工程，可准备源码；尚未完成 Xcode Release 构建和 App 实机界面验收。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
+**状态：已通过 GitHub Actions 的 Xcode Release 构建、App 打包与签名校验；实际界面尚未验收。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
 
 ## 快速使用
 
@@ -95,7 +95,7 @@ App 中依次验收：菜单栏、画笔与选区工具、图层右键、全部�
 
 ## GitHub 构建
 
-Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压内层 ZIP 得到 App。是否成功以对应运行日志为准；仓库提供工作流不代表已成功构建。
+Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压内层 ZIP 得到 App。本次成功构建记录见 reports/cloud-build.md；后续是否成功以对应运行日志为准。
 
 ## 来源与限制
 
