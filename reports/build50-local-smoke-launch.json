@@ -1,0 +1,313 @@
+{
+  "status": "PASS",
+  "ui_review": "NOT VERIFIED",
+  "snapshots": [
+    {
+      "found": false,
+      "elapsed_seconds": 0.04
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 1.086
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 2.161
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 3.208
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 4.285
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 5.344
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 6.406
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 7.482
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 8.539
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 9.594
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 10.664
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 11.717
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 12.767
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 13.829
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 14.897
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 15.949
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 17.002
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 18.058
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 19.11
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 20.169
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 21.222
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 22.274
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 23.345
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 24.402
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 25.499
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 26.55
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 27.634
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 28.687
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 29.759
+    },
+    {
+      "found": true,
+      "pid": 12456,
+      "bundle_id": "local.compositor.zhcn",
+      "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+      "finished_launching": true,
+      "terminated": false,
+      "activation_policy": 0,
+      "elapsed_seconds": 30.052
+    }
+  ],
+  "started_at": "2026-10-15T23:55:58.730015+00:00",
+  "requested_observation_seconds": 30.0,
+  "app": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app",
+  "executable": "<LOCAL_WORKSPACE>/work/build50-local-check/Compositor-zh-CN.app/Contents/MacOS/Compositor",
+  "bundle_id": "local.compositor.zhcn",
+  "session": {
+    "frontmost_available": true,
+    "existing_pids": []
+  },
+  "pid": 12456,
+  "observed_seconds": 30.052,
+  "scope": "指定 PID 持续存活且 AppKit isFinishedLaunching=true；未验证窗口、中文显示或编辑功能",
+  "test_process_cleaned_up": true
+}

@@ -2,7 +2,7 @@
 
 基于 [robbietilton/Compositor](https://github.com/robbietilton/Compositor) 的独立简体中文个人版工程。GitHub 仓库：[qq987985/cp](https://github.com/qq987985/cp)。保留英文源码快照，只对构建副本的显示边界添加翻译，不修改工程格式或枚举内部值。
 
-**版本提示：build 49 已确认存在 Sparkle 加载签名导致的启动崩溃，请停用。build 50 已移除闲置更新框架，构建与实际启动验证记录见 reports/startup-fix.md。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
+**版本提示：build 49 已确认存在 Sparkle 加载签名导致的启动崩溃，请停用。build 50 已移除闲置更新框架，并通过云端及本机启动检查（本机持续运行 30 秒且主窗口正常显示），详见 reports/startup-fix.md。** 当前识别的静态显示文本均有译文；动态文本、系统菜单、排版仍需运行 App 核验，详细结果见 `reports/`。请勿把静态覆盖率当作完整汉化率。
 
 ## 快速使用
 
