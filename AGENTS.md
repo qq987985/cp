@@ -1,15 +1,5 @@
-# Notes for AI agents
+# Compositor-zh-CN 维护约定
 
-Compositor is a macOS image editor for compositing and photo work, written in Swift (SwiftUI and AppKit, with some C for pixel work).
+默认中文沟通。vendor/Compositor 是未修改的上游快照，不直接改它。构建副本在 build/source，每次 prepare 重建。修改译文用 translations/zh-CN.json，修改显示边界逻辑用 scripts/localize.py，精确源码修补用 patches/anchors.json。禁止翻译持久化 rawValue、工程格式标识、快捷键 id、文件路径及用户命名。
 
-## Designing or editing a Compositor project
-
-If you've been asked to make or change an image in a `.comp` project, you don't need the app's source code. Read [docs/writing-comp-files.md](docs/writing-comp-files.md): it covers the file format, the rules that make a project load, and how to write it safely while it's open, so the person can watch the canvas update as you work.
-
-## Working on the app itself
-
-- Build: open `Compositor.xcodeproj` and run the **Compositor** scheme, or `xcodebuild -project Compositor.xcodeproj -scheme Compositor -destination 'platform=macOS' build`.
-- Tests: the `CompositorTests` target (`xcodebuild ... test -only-testing:CompositorTests`). CI runs these on every push.
-- Match the surrounding code: its naming, its comment style and density.
-- American spelling in code, comments and UI ("color", not "colour").
-- The project file format is described in [docs/project-format.md](docs/project-format.md). A change to what's saved means a format version bump there and in `ProjectManifest.current`.
+完成修改后运行 python3 scripts/localize.py prepare 和 python3 scripts/verify.py；有 Swift 时执行语法解析；有完整 Xcode 才运行 bash scripts/build.sh。没有成功构建日志时不宣称编译成功。App 中检查中文显示、混合模式选择和快捷键后才能声明 UI 验收。不要在脚本、日志或仓库中保存访问令牌。

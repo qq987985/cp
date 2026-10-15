@@ -1,0 +1,100 @@
+[
+  {
+    "file": "Compositor/UI/BlendModePicker.swift",
+    "old": "for mode in group { button.addItem(withTitle: mode.rawValue) }",
+    "new": "for mode in group {\n                button.addItem(withTitle: CN.text(mode.rawValue))\n                button.lastItem?.representedObject = mode.rawValue\n            }"
+  },
+  {
+    "file": "Compositor/UI/BlendModePicker.swift",
+    "old": "button.selectItem(withTitle: (session.activeLayer?.blendMode ?? .normal).rawValue)",
+    "new": "button.selectItem(withTitle: CN.text((session.activeLayer?.blendMode ?? .normal).rawValue))"
+  },
+  {
+    "file": "Compositor/UI/BlendModePicker.swift",
+    "old": "LayerBlendMode(rawValue: $0.title)",
+    "new": "($0.representedObject as? String).flatMap(LayerBlendMode.init(rawValue:))",
+    "count": 2
+  },
+  {
+    "file": "Compositor/UI/BlendModePicker.swift",
+    "old": "button.selectItem(withTitle: mode.rawValue)",
+    "new": "button.selectItem(withTitle: CN.text(mode.rawValue))"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "menuItem.title == \"Add Mask\"",
+    "new": "menuItem.title == CN.text(\"Add Mask\")"
+  },
+  {
+    "file": "Compositor/UI/KeyboardShortcuts.swift",
+    "old": "Text(group)",
+    "new": "Text(CN.text(group))"
+  },
+  {
+    "file": "Compositor/UI/KeyboardShortcuts.swift",
+    "old": "$0.title.localizedCaseInsensitiveContains(search)",
+    "new": "($0.title.localizedCaseInsensitiveContains(search) || CN.text($0.title).localizedCaseInsensitiveContains(search))"
+  },
+  {
+    "file": "Compositor/UI/KeyboardShortcuts.swift",
+    "old": "button.title = recording ? \"Press keys…\" : chord.label",
+    "new": "button.title = recording ? CN.text(\"Press keys…\") : chord.label"
+  },
+  {
+    "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+    "old": "do { try self?.updater.start() } catch { NSLog(\"Sparkle didn't start: \\(error)\") }",
+    "new": "// Compositor-zh-CN: official binary updater is disabled in this personal build."
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "old": "Button(CN.text(\"Check for Updates…\")) { applicationDelegate.updater.checkForUpdates() }",
+    "new": "Button(CN.text(\"Check for Updates…\")) {}.disabled(true)"
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "old": "Button(kind.rawValue + (kind.isEditable ? \"…\" : \"\"))",
+    "new": "Button(CN.text(kind.rawValue) + (kind.isEditable ? \"…\" : \"\"))",
+    "count": 1
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "old": "CN.text(\"Last Filter: \") + $0.rawValue",
+    "new": "CN.text(\"Last Filter: \") + CN.text($0.rawValue)",
+    "count": 1
+  },
+  {
+    "file": "Compositor/UI/LayersPanel.swift",
+    "old": "Button(kind.rawValue + \"…\")",
+    "new": "Button(CN.text(kind.rawValue) + \"…\")",
+    "count": 1
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "old": "NSTextField(labelWithString: kind.rawValue)",
+    "new": "NSTextField(labelWithString: CN.text(kind.rawValue))",
+    "count": 1
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "old": "title: selection.kind.rawValue",
+    "new": "title: CN.text(selection.kind.rawValue)",
+    "count": 1
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "old": "title: operation.rawValue + \" Selection\"",
+    "new": "title: CN.text(operation.rawValue) + CN.text(\" Selection\")",
+    "count": 1
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "PRODUCT_BUNDLE_IDENTIFIER = com.wonderassembly.compositor;",
+    "new": "PRODUCT_BUNDLE_IDENTIFIER = local.compositor.zhcn;",
+    "count": 2
+  },
+  {
+    "file": "Compositor.xcodeproj/project.pbxproj",
+    "old": "knownRegions = (\n\t\t\t\ten,\n\t\t\t\tBase,",
+    "new": "knownRegions = (\n\t\t\t\ten,\n\t\t\t\t\"zh-Hans\",\n\t\t\t\tBase,"
+  }
+]

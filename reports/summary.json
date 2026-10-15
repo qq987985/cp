@@ -1,0 +1,14 @@
+{
+  "commit": "365b5745eda537f984f3d5bed1e53c361dbc9c91",
+  "inventory": 1742,
+  "dictionary": 1669,
+  "untranslated_candidates": 901,
+  "literal_ui_keys": 712,
+  "missing_literal_ui_keys": 0,
+  "xcode_build": "NOT VERIFIED",
+  "ui_review": "NOT VERIFIED",
+  "swift_parse_files": 157,
+  "swift_parse": "PASS",
+  "regression_tests": 9,
+  "runtime_helper_checks": 6
+}

@@ -1,0 +1,8499 @@
+{
+  "navigator.visible": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 8,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 7,
+      "kind": "inventory"
+    }
+  ],
+  "editor": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 11,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 120,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 148,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 174,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "undo:": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 32,
+      "kind": "inventory"
+    }
+  ],
+  "z": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 35,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 41,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 44,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 46,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2318,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 88,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 88,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    }
+  ],
+  "redo:": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 38,
+      "kind": "inventory"
+    }
+  ],
+  "n": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 53,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 369,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 405,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 89,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 107,
+      "kind": "inventory"
+    }
+  ],
+  "o": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 59,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 89,
+      "kind": "inventory"
+    }
+  ],
+  "s": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 77,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 79,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 84,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2293,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 90,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 90,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 91,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "e": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 87,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 382,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 387,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2291,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 91,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 108,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 801,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 803,
+      "kind": "inventory"
+    }
+  ],
+  "w": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 91,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 98,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2303,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 91,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 92,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 119,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 805,
+      "kind": "inventory"
+    }
+  ],
+  "f": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 109,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 114,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 334,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 67,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 453,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 92,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 101,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "h": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 139,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 200,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2317,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 94,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 95,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "CMYK Proof Colors": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 145,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 113,
+      "kind": "inventory"
+    }
+  ],
+  "CMYK Gamut Warning": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 149,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 114,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "r": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 173,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 406,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2314,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 110,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "x": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 214,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2288,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 95,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 121,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 791,
+      "kind": "inventory"
+    }
+  ],
+  "c": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 220,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 222,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 310,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2315,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 96,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 96,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 103,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "v": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 232,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2316,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 97,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "Select": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 255,
+      "kind": "inventory"
+    }
+  ],
+  "a": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 267,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 278,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 453,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 453,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2313,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 99,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 100,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "d": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 269,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2289,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 99,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 121,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 793,
+      "kind": "inventory"
+    }
+  ],
+  "i": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 271,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 306,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 313,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2299,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 100,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 102,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 103,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 119,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "Image": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 294,
+      "kind": "inventory"
+    }
+  ],
+  "m": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 296,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2302,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 101,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 119,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 207,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 799,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "l": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 298,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2305,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 101,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 800,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "u": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 300,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2296,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 102,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 129,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "Layer": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 341,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 192,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 360,
+      "kind": "inventory"
+    }
+  ],
+  "t": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 352,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 407,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2294,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 104,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 795,
+      "kind": "inventory"
+    }
+  ],
+  "j": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 354,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2292,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 104,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "g": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 359,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 363,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 365,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2295,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 105,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 105,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 106,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "icc": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 401,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 43,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 83,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 255,
+      "kind": "inventory"
+    }
+  ],
+  "icm": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 401,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 43,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 255,
+      "kind": "inventory"
+    }
+  ],
+  "Choose a CMYK ICC profile, such as the one your printer gave you": [
+    {
+      "file": "Compositor/CompositorApp.swift",
+      "line": 402,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 256,
+      "kind": "inventory"
+    }
+  ],
+  "layersPanelWidth": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 6,
+      "kind": "inventory"
+    }
+  ],
+  "levelsPanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 12,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1783,
+      "kind": "inventory"
+    }
+  ],
+  "adjustmentPanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 13,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1801,
+      "kind": "inventory"
+    }
+  ],
+  "selectionAmountPanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 14,
+      "kind": "inventory"
+    }
+  ],
+  "colorRangePanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 15,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1790,
+      "kind": "inventory"
+    }
+  ],
+  "filterPanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 16,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1755,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1760,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1765,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2091,
+      "kind": "inventory"
+    }
+  ],
+  "effectsPanel": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 17,
+      "kind": "inventory"
+    }
+  ],
+  "plus": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 183,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 430,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ProjectTabs.swift",
+      "line": 256,
+      "kind": "inventory"
+    }
+  ],
+  "newCanvasToolbar": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 184,
+      "kind": "inventory"
+    }
+  ],
+  "fitCanvas": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 204,
+      "kind": "inventory"
+    }
+  ],
+  "actualPixels": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 209,
+      "kind": "inventory"
+    }
+  ],
+  "plus.magnifyingglass": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 215,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 485,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 85,
+      "kind": "inventory"
+    }
+  ],
+  "minus.magnifyingglass": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 218,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 485,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 88,
+      "kind": "inventory"
+    }
+  ],
+  "circle.dashed": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 322,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 357,
+      "kind": "inventory"
+    }
+  ],
+  "zoomStatus": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 353,
+      "kind": "inventory"
+    }
+  ],
+  "canvasDimensions": [
+    {
+      "file": "Compositor/ContentView.swift",
+      "line": 354,
+      "kind": "inventory"
+    }
+  ],
+  "Adjustment input": [
+    {
+      "file": "Compositor/Document/AdjustmentEditing.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "Edit {0} Adjustment": [
+    {
+      "file": "Compositor/Document/AdjustmentEditing.swift",
+      "line": 59,
+      "kind": "inventory"
+    }
+  ],
+  "Parametric": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 3,
+      "kind": "inventory"
+    }
+  ],
+  "Point": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 3,
+      "kind": "inventory"
+    }
+  ],
+  "HSL": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 5,
+      "kind": "inventory"
+    }
+  ],
+  "Point Color": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 5,
+      "kind": "inventory"
+    }
+  ],
+  "Oranges": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 159,
+      "kind": "inventory"
+    }
+  ],
+  "Aquas": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 159,
+      "kind": "inventory"
+    }
+  ],
+  "Purples": [
+    {
+      "file": "Compositor/Document/CameraRawColor.swift",
+      "line": 159,
+      "kind": "inventory"
+    }
+  ],
+  "CIPerspectiveTransform": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 77,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 115,
+      "kind": "inventory"
+    }
+  ],
+  "inputTopLeft": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 78,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 455,
+      "kind": "inventory"
+    }
+  ],
+  "inputTopRight": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 79,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 455,
+      "kind": "inventory"
+    }
+  ],
+  "inputBottomRight": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 80,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 456,
+      "kind": "inventory"
+    }
+  ],
+  "inputBottomLeft": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 81,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 456,
+      "kind": "inventory"
+    }
+  ],
+  "Earliest response. Hue, saturation, and shadow tint move about half as far as Version 6.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 197,
+      "kind": "inventory"
+    }
+  ],
+  "A little stronger than Version 1. The sliders below still fall well short of the current look.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 199,
+      "kind": "inventory"
+    }
+  ],
+  "Firmer color than Version 2. Primary shifts stay gentler than the current process.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 201,
+      "kind": "inventory"
+    }
+  ],
+  "The 2012 response. Calibration reaches most of the strength used by Version 6.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 203,
+      "kind": "inventory"
+    }
+  ],
+  "Close to the current process, with slightly softer primary and shadow shifts.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 205,
+      "kind": "inventory"
+    }
+  ],
+  "Current default. The calibration sliders below apply at full strength.": [
+    {
+      "file": "Compositor/Document/CameraRawGeometryCalibration.swift",
+      "line": 207,
+      "kind": "inventory"
+    }
+  ],
+  "CameraRawShadows": [
+    {
+      "file": "Compositor/Document/CameraRawShadows.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "bin": [
+    {
+      "file": "Compositor/Document/CameraRawShadows.swift",
+      "line": 27,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/CameraRawTables.swift",
+      "line": 37,
+      "kind": "inventory"
+    }
+  ],
+  "CRS2": [
+    {
+      "file": "Compositor/Document/CameraRawShadows.swift",
+      "line": 28,
+      "kind": "inventory"
+    }
+  ],
+  "CameraRawTables": [
+    {
+      "file": "Compositor/Document/CameraRawTables.swift",
+      "line": 37,
+      "kind": "inventory"
+    }
+  ],
+  "CRT3": [
+    {
+      "file": "Compositor/Document/CameraRawTables.swift",
+      "line": 38,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Text Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 277,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker ({0} Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 278,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Background Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 279,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Foreground Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 279,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Gradient Map Highlights)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 280,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Gradient Map Shadows)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 280,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Vignette Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 281,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Light Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 282,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker (Dark Color)": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 282,
+      "kind": "inventory"
+    }
+  ],
+  "Color Picker ({0})": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 283,
+      "kind": "inventory"
+    }
+  ],
+  "%02X%02X%02X": [
+    {
+      "file": "Compositor/Document/ColorPalette.swift",
+      "line": 364,
+      "kind": "inventory"
+    }
+  ],
+  "Not enough unselected, opaque image pixels to synthesize a fill. Use a smaller selection with some surrounding image.": [
+    {
+      "file": "Compositor/Document/ContentFill.swift",
+      "line": 6,
+      "kind": "inventory"
+    }
+  ],
+  "Convert to 8-Bit": [
+    {
+      "file": "Compositor/Document/DeepLayers.swift",
+      "line": 325,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 188,
+      "kind": "inventory"
+    }
+  ],
+  "Distort": [
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 353,
+      "kind": "inventory"
+    }
+  ],
+  "Distort Layers": [
+    {
+      "file": "Compositor/Document/Distort.swift",
+      "line": 353,
+      "kind": "inventory"
+    }
+  ],
+  "Floyd–Steinberg": [
+    {
+      "file": "Compositor/Document/Dither.swift",
+      "line": 7,
+      "kind": "inventory"
+    }
+  ],
+  "ASCII": [
+    {
+      "file": "Compositor/Document/Dither.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "M": [
+    {
+      "file": "Compositor/Document/Dither.swift",
+      "line": 164,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 195,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 196,
+      "kind": "inventory"
+    }
+  ],
+  "Several layers are selected. Select just one to paint on it.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 16,
+      "kind": "inventory"
+    }
+  ],
+  "“{0}” is a folder, which has no pixels of its own. Paint on a layer inside it, or on the folder’s mask.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 18,
+      "kind": "inventory"
+    }
+  ],
+  "“{0}” is hidden, or inside a hidden folder. Show it to paint on it.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 21,
+      "kind": "inventory"
+    }
+  ],
+  "The layer mask is turned off. Shift-click its thumbnail to turn it on, then paint.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 24,
+      "kind": "inventory"
+    }
+  ],
+  "“{0}” is an adjustment layer, with no pixels to paint. Paint on its mask instead.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "Nothing is selected, so there’s nowhere to paint. Choose Select › Deselect (⌘D) to paint anywhere.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "Option-click where Clone Stamp should copy from first.": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Paint Mask": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "Brush Stroke": [
+    {
+      "file": "Compositor/Document/EditorSession+Brush.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "{0}.mask.png": [
+    {
+      "file": "Compositor/Document/EditorSession+Projects.swift",
+      "line": 13,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 73,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 241,
+      "kind": "inventory"
+    }
+  ],
+  "textformat": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1011,
+      "kind": "inventory"
+    }
+  ],
+  "eyedropper": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 138,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 433,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 362,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 230,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 115,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 52,
+      "kind": "inventory"
+    }
+  ],
+  "rectangle.dashed": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 357,
+      "kind": "inventory"
+    }
+  ],
+  "lasso": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 357,
+      "kind": "inventory"
+    }
+  ],
+  "wand.and.stars": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "paintbrush.pointed": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "bandage": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "seal": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "drop": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "square.bottomhalf.filled": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "square.on.circle": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "crop": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "arrow.up.left.and.arrow.down.right": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "hand.draw": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "magnifyingglass": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "Type (T)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Eyedropper (I)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Marquee (M)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Lasso (L)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Magic (W) · Tab switches Wand and Object": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Brush (B) · Eraser (E)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Spot Healing Brush (J)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Clone Stamp (S) · Option-click sets the source": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Smear (R)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Gradient (G)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Shape (U) · Shift-U switches Rectangle/Ellipse": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Crop (C)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Move / Transform (V)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Hand (H)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Zoom (Z)": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "Free": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 175,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CropControls.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "autoSelect": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 199,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 199,
+      "kind": "inventory"
+    }
+  ],
+  "transformControls": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 202,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 202,
+      "kind": "inventory"
+    }
+  ],
+  "eraser": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "pixelGrid": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 280,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 280,
+      "kind": "inventory"
+    }
+  ],
+  "grid": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 289,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 289,
+      "kind": "inventory"
+    }
+  ],
+  "gridSpacing": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 291,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 293,
+      "kind": "inventory"
+    }
+  ],
+  "gridSubdivisions": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 291,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 294,
+      "kind": "inventory"
+    }
+  ],
+  "gridColor": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 299,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 304,
+      "kind": "inventory"
+    }
+  ],
+  "gridCustomColor": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 300,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 305,
+      "kind": "inventory"
+    }
+  ],
+  "gridStyle": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 301,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 306,
+      "kind": "inventory"
+    }
+  ],
+  "gridOpacity": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 302,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 307,
+      "kind": "inventory"
+    }
+  ],
+  "guides": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 311,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 311,
+      "kind": "inventory"
+    }
+  ],
+  "rulers": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 328,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 328,
+      "kind": "inventory"
+    }
+  ],
+  "snap": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 330,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 332,
+      "kind": "inventory"
+    }
+  ],
+  "snapGuides": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 337,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 337,
+      "kind": "inventory"
+    }
+  ],
+  "snapGrid": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 338,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 338,
+      "kind": "inventory"
+    }
+  ],
+  "snapLayers": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 339,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 339,
+      "kind": "inventory"
+    }
+  ],
+  "snapBounds": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 340,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 340,
+      "kind": "inventory"
+    }
+  ],
+  "lockGuides": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 341,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 341,
+      "kind": "inventory"
+    }
+  ],
+  "Duplicate Layers": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 475,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 485,
+      "kind": "inventory"
+    }
+  ],
+  "Transform Layers": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 503,
+      "kind": "inventory"
+    }
+  ],
+  "Layer {0}": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 707,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 708,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 315,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 316,
+      "kind": "inventory"
+    }
+  ],
+  "Reorder Layers": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 790,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 807,
+      "kind": "inventory"
+    }
+  ],
+  "“{0}” has no images to import.": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 832,
+      "kind": "inventory"
+    }
+  ],
+  "Import Photoshop File": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 856,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 1002,
+      "kind": "inventory"
+    }
+  ],
+  "Import Image": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 939,
+      "kind": "inventory"
+    }
+  ],
+  "Layer 1": [
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 1059,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/EditorSession.swift",
+      "line": 1063,
+      "kind": "inventory"
+    }
+  ],
+  "CIBlendWithAlphaMask": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 290,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3130,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3171,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3216,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 560,
+      "kind": "inventory"
+    }
+  ],
+  "CIMotionBlur": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 299,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 590,
+      "kind": "inventory"
+    }
+  ],
+  "CIBloom": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 328,
+      "kind": "inventory"
+    }
+  ],
+  "CIRadialGradient": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 406,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2971,
+      "kind": "inventory"
+    }
+  ],
+  "inputRadius0": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 407,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2972,
+      "kind": "inventory"
+    }
+  ],
+  "inputRadius1": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 408,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2973,
+      "kind": "inventory"
+    }
+  ],
+  "inputColor0": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 408,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2969,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2974,
+      "kind": "inventory"
+    }
+  ],
+  "inputColor1": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 408,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2969,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2974,
+      "kind": "inventory"
+    }
+  ],
+  "CILinearGradient": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 409,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2967,
+      "kind": "inventory"
+    }
+  ],
+  "inputPoint0": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 410,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2968,
+      "kind": "inventory"
+    }
+  ],
+  "inputPoint1": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 410,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2968,
+      "kind": "inventory"
+    }
+  ],
+  "CIMaskedVariableBlur": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 412,
+      "kind": "inventory"
+    }
+  ],
+  "inputMask": [
+    {
+      "file": "Compositor/Document/Filters.swift",
+      "line": 413,
+      "kind": "inventory"
+    }
+  ],
+  "Floating Selection": [
+    {
+      "file": "Compositor/Document/FloatingSelection.swift",
+      "line": 42,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/FloatingSelection.swift",
+      "line": 43,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/FloatingSelection.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "Gradient Mask": [
+    {
+      "file": "Compositor/Document/Gradient.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Medium Blue": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 69,
+      "kind": "inventory"
+    }
+  ],
+  "Yellow": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 69,
+      "kind": "inventory"
+    }
+  ],
+  "Magenta": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 69,
+      "kind": "inventory"
+    }
+  ],
+  "Cyan": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 69,
+      "kind": "inventory"
+    }
+  ],
+  "Delete Guide": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 205,
+      "kind": "inventory"
+    }
+  ],
+  "New Guide": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 212,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 241,
+      "kind": "inventory"
+    }
+  ],
+  "Move Guide": [
+    {
+      "file": "Compositor/Document/Guides.swift",
+      "line": 216,
+      "kind": "inventory"
+    }
+  ],
+  "plus.circle.fill": [
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 142,
+      "kind": "inventory"
+    }
+  ],
+  "minus.circle.fill": [
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 143,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to center this range on that color": [
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 148,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to widen this range to include that color": [
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 149,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to narrow this range to exclude that color": [
+    {
+      "file": "Compositor/Document/HueSaturation.swift",
+      "line": 150,
+      "kind": "inventory"
+    }
+  ],
+  "No content remained after trimming.": [
+    {
+      "file": "Compositor/Document/ImageTrim.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "The trimmed image dimensions are invalid.": [
+    {
+      "file": "Compositor/Document/ImageTrim.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "point.topleft.down.to.point.bottomright.curvepath": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "slider.horizontal.3": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 13,
+      "kind": "inventory"
+    }
+  ],
+  "circle.lefthalf.filled": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 14,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "plusminus.circle": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "paintpalette": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 16,
+      "kind": "inventory"
+    }
+  ],
+  "circle.grid.3x3": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 17,
+      "kind": "inventory"
+    }
+  ],
+  "drop.fill": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 18,
+      "kind": "inventory"
+    }
+  ],
+  "wind": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 19,
+      "kind": "inventory"
+    }
+  ],
+  "circle.dotted": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 20,
+      "kind": "inventory"
+    }
+  ],
+  "circle.righthalf.filled": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 21,
+      "kind": "inventory"
+    }
+  ],
+  "circle.filled.pattern.diagonalline.rectangle": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 22,
+      "kind": "inventory"
+    }
+  ],
+  "scale.3d": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "New {0} Adjustment": [
+    {
+      "file": "Compositor/Document/LayerAdjustment.swift",
+      "line": 222,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorBurnBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 56,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorDodgeBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 57,
+      "kind": "inventory"
+    }
+  ],
+  "CISoftLightBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 58,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 513,
+      "kind": "inventory"
+    }
+  ],
+  "CILinearBurnBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 59,
+      "kind": "inventory"
+    }
+  ],
+  "CILinearDodgeBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 60,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 342,
+      "kind": "inventory"
+    }
+  ],
+  "CIVividLightBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 61,
+      "kind": "inventory"
+    }
+  ],
+  "CILinearLightBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 62,
+      "kind": "inventory"
+    }
+  ],
+  "CIPinLightBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 63,
+      "kind": "inventory"
+    }
+  ],
+  "CIHardMixBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 64,
+      "kind": "inventory"
+    }
+  ],
+  "CISubtractBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 65,
+      "kind": "inventory"
+    }
+  ],
+  "CIDivideBlendMode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 66,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 556,
+      "kind": "inventory"
+    }
+  ],
+  "Layer Opacity": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 91,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 104,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Layer Blend Mode": [
+    {
+      "file": "Compositor/Document/LayerAppearance.swift",
+      "line": 134,
+      "kind": "inventory"
+    }
+  ],
+  "Add ": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 273,
+      "kind": "inventory"
+    }
+  ],
+  "Cancel ": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 308,
+      "kind": "inventory"
+    }
+  ],
+  "Layer Effects": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 315,
+      "kind": "inventory"
+    }
+  ],
+  "Edit ": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 333,
+      "kind": "inventory"
+    }
+  ],
+  "Copy ": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 360,
+      "kind": "inventory"
+    }
+  ],
+  "Remove ": [
+    {
+      "file": "Compositor/Document/LayerEffects.swift",
+      "line": 380,
+      "kind": "inventory"
+    }
+  ],
+  "Flip Horizontal": [
+    {
+      "file": "Compositor/Document/LayerFlip.swift",
+      "line": 41,
+      "kind": "inventory"
+    }
+  ],
+  "Flip Vertical": [
+    {
+      "file": "Compositor/Document/LayerFlip.swift",
+      "line": 41,
+      "kind": "inventory"
+    }
+  ],
+  "Folder {0}": [
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 199,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 200,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 269,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 270,
+      "kind": "inventory"
+    }
+  ],
+  "Group Layers": [
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 220,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 105,
+      "kind": "inventory"
+    }
+  ],
+  "New Folder": [
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 277,
+      "kind": "inventory"
+    }
+  ],
+  "Move Layer": [
+    {
+      "file": "Compositor/Document/LayerGroups.swift",
+      "line": 312,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 486,
+      "kind": "inventory"
+    }
+  ],
+  "Reveal Selection": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 261,
+      "kind": "inventory"
+    }
+  ],
+  "Hide Selection": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 261,
+      "kind": "inventory"
+    }
+  ],
+  "Add Reveal-All Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 274,
+      "kind": "inventory"
+    }
+  ],
+  "Add Hide-All Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 274,
+      "kind": "inventory"
+    }
+  ],
+  "Disable Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 283,
+      "kind": "inventory"
+    }
+  ],
+  "Enable Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 283,
+      "kind": "inventory"
+    }
+  ],
+  "Copy Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 312,
+      "kind": "inventory"
+    }
+  ],
+  "Replace Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 312,
+      "kind": "inventory"
+    }
+  ],
+  "Unlink Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 324,
+      "kind": "inventory"
+    }
+  ],
+  "Link Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 324,
+      "kind": "inventory"
+    }
+  ],
+  "Distort Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 359,
+      "kind": "inventory"
+    }
+  ],
+  "Transform Layer Mask": [
+    {
+      "file": "Compositor/Document/LayerMask.swift",
+      "line": 369,
+      "kind": "inventory"
+    }
+  ],
+  "Merge Layers": [
+    {
+      "file": "Compositor/Document/LayerMerge.swift",
+      "line": 16,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 108,
+      "kind": "inventory"
+    }
+  ],
+  "Merge Group": [
+    {
+      "file": "Compositor/Document/LayerMerge.swift",
+      "line": 22,
+      "kind": "inventory"
+    }
+  ],
+  "Merge Down": [
+    {
+      "file": "Compositor/Document/LayerMerge.swift",
+      "line": 26,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/LayerMerge.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "Gray": [
+    {
+      "file": "Compositor/Document/LevelsAutomatic.swift",
+      "line": 3,
+      "kind": "inventory"
+    }
+  ],
+  "This layer supplies a live mask": [
+    {
+      "file": "Compositor/Document/LiveLayerMask.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "These layers supply live masks": [
+    {
+      "file": "Compositor/Document/LiveLayerMask.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "Point Sample": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 5,
+      "kind": "inventory"
+    }
+  ],
+  "3 by 3 Average": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 5,
+      "kind": "inventory"
+    }
+  ],
+  "5 by 5 Average": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 5,
+      "kind": "inventory"
+    }
+  ],
+  "That selection is too detailed to outline. Try a different Tolerance, or turn on Contiguous.": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 28,
+      "kind": "inventory"
+    }
+  ],
+  "There isn’t enough memory to make that selection.": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 29,
+      "kind": "inventory"
+    }
+  ],
+  "Magic Wand": [
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 119,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/MagicWand.swift",
+      "line": 121,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 199,
+      "kind": "inventory"
+    }
+  ],
+  "Load Mask Selection": [
+    {
+      "file": "Compositor/Document/MaskTracing.swift",
+      "line": 82,
+      "kind": "inventory"
+    }
+  ],
+  "Load Layer Selection": [
+    {
+      "file": "Compositor/Document/MaskTracing.swift",
+      "line": 93,
+      "kind": "inventory"
+    }
+  ],
+  "Object Selection requires macOS 14 or later.": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 21,
+      "kind": "inventory"
+    }
+  ],
+  "The object mask could not be rendered.": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 22,
+      "kind": "inventory"
+    }
+  ],
+  "CIEdgePreserveUpsampleFilter": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 71,
+      "kind": "inventory"
+    }
+  ],
+  "inputSmallImage": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 73,
+      "kind": "inventory"
+    }
+  ],
+  "inputSpatialSigma": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 74,
+      "kind": "inventory"
+    }
+  ],
+  "inputLumaSigma": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "Object Selection": [
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 293,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/ObjectSelection.swift",
+      "line": 295,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 200,
+      "kind": "inventory"
+    }
+  ],
+  "CIBlendWithMask": [
+    {
+      "file": "Compositor/Document/PixelAdjust.swift",
+      "line": 43,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 105,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/LiveMaskRenderer.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "Untitled {0}": [
+    {
+      "file": "Compositor/Document/ProjectWorkspace.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "comp": [
+    {
+      "file": "Compositor/Document/ProjectWorkspace.swift",
+      "line": 175,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ImageImporter.swift",
+      "line": 27,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 566,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 398,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 405,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.layer-row": [
+    {
+      "file": "Compositor/Document/ProjectWorkspace.swift",
+      "line": 199,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 45,
+      "kind": "inventory"
+    }
+  ],
+  "The copied layers exceed this project’s {0}-megapixel limit.": [
+    {
+      "file": "Compositor/Document/ProjectWorkspace.swift",
+      "line": 237,
+      "kind": "inventory"
+    }
+  ],
+  "Copy Layers from Project": [
+    {
+      "file": "Compositor/Document/ProjectWorkspace.swift",
+      "line": 281,
+      "kind": "inventory"
+    }
+  ],
+  "Polygonal Lasso": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 229,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 198,
+      "kind": "inventory"
+    }
+  ],
+  "Elliptical Marquee": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 230,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 196,
+      "kind": "inventory"
+    }
+  ],
+  "Rectangular Marquee": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 230,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 195,
+      "kind": "inventory"
+    }
+  ],
+  "Move Selection": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 265,
+      "kind": "inventory"
+    }
+  ],
+  "Expand Selection": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 317,
+      "kind": "inventory"
+    }
+  ],
+  "Contract Selection": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 321,
+      "kind": "inventory"
+    }
+  ],
+  "Feather Selection": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 330,
+      "kind": "inventory"
+    }
+  ],
+  "Select All": [
+    {
+      "file": "Compositor/Document/Selection.swift",
+      "line": 346,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 99,
+      "kind": "inventory"
+    }
+  ],
+  "XCTestConfigurationFilePath": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 24,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/ToolDefaults.swift",
+      "line": 11,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.copied-layer": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Pasted Image": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 188,
+      "kind": "inventory"
+    }
+  ],
+  "png": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 188,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ImageFileDrop.swift",
+      "line": 44,
+      "kind": "inventory"
+    }
+  ],
+  "tiff": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 188,
+      "kind": "inventory"
+    }
+  ],
+  "psd": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 200,
+      "kind": "inventory"
+    }
+  ],
+  " copy": [
+    {
+      "file": "Compositor/Document/SelectionClipboard.swift",
+      "line": 267,
+      "kind": "inventory"
+    }
+  ],
+  "Fill Mask": [
+    {
+      "file": "Compositor/Document/SelectionEdits.swift",
+      "line": 62,
+      "kind": "inventory"
+    }
+  ],
+  "Fill": [
+    {
+      "file": "Compositor/Document/SelectionEdits.swift",
+      "line": 62,
+      "kind": "inventory"
+    }
+  ],
+  "Clear": [
+    {
+      "file": "Compositor/Document/SelectionEdits.swift",
+      "line": 71,
+      "kind": "inventory"
+    }
+  ],
+  "Duplicate Pixels": [
+    {
+      "file": "Compositor/Document/SelectionEdits.swift",
+      "line": 207,
+      "kind": "inventory"
+    }
+  ],
+  "Move Pixels": [
+    {
+      "file": "Compositor/Document/SelectionEdits.swift",
+      "line": 207,
+      "kind": "inventory"
+    }
+  ],
+  "That shape is too large. A shape can cover up to {0} megapixels.": [
+    {
+      "file": "Compositor/Document/ShapeTool.swift",
+      "line": 173,
+      "kind": "inventory"
+    }
+  ],
+  "Smudge and Liquify work on a layer's pixels, not its mask.": [
+    {
+      "file": "Compositor/Document/SmudgeLiquify.swift",
+      "line": 217,
+      "kind": "inventory"
+    }
+  ],
+  "No foreground subject was detected in this layer. Try an image with a more distinct subject.": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 8,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorClamp": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 59,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 554,
+      "kind": "inventory"
+    }
+  ],
+  "inputMinComponents": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 60,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 555,
+      "kind": "inventory"
+    }
+  ],
+  "inputMaxComponents": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 61,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 555,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorMatrix": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 64,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 75,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2883,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3126,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3203,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 338,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 343,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 535,
+      "kind": "inventory"
+    }
+  ],
+  "inputRVector": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 65,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 76,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 339,
+      "kind": "inventory"
+    }
+  ],
+  "inputGVector": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 66,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 77,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2883,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 339,
+      "kind": "inventory"
+    }
+  ],
+  "inputBVector": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 67,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 78,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2884,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 340,
+      "kind": "inventory"
+    }
+  ],
+  "inputBiasVector": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 68,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 79,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3127,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3204,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 343,
+      "kind": "inventory"
+    }
+  ],
+  "Select Subject": [
+    {
+      "file": "Compositor/Document/SubjectRemoval.swift",
+      "line": 140,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 100,
+      "kind": "inventory"
+    }
+  ],
+  "tool.": [
+    {
+      "file": "Compositor/Document/ToolDefaults.swift",
+      "line": 10,
+      "kind": "inventory"
+    }
+  ],
+  "Text": [
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 8,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 400,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 53,
+      "kind": "inventory"
+    }
+  ],
+  "Helvetica": [
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 9,
+      "kind": "inventory"
+    }
+  ],
+  "New Text Layer": [
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 308,
+      "kind": "inventory"
+    }
+  ],
+  "That text box exceeds the {0}-pixel or {1}-megapixel limit.": [
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 336,
+      "kind": "inventory"
+    }
+  ],
+  "Fill Text": [
+    {
+      "file": "Compositor/Document/TypeTool.swift",
+      "line": 354,
+      "kind": "inventory"
+    }
+  ],
+  "/System/Library/ColorSync/Profiles": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 29,
+      "kind": "inventory"
+    }
+  ],
+  "/Library/ColorSync/Profiles": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 29,
+      "kind": "inventory"
+    }
+  ],
+  "CMYK Profiles": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "Embedded CMYK Profile": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 71,
+      "kind": "inventory"
+    }
+  ],
+  "Generic CMYK Profile": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 99,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 107,
+      "kind": "inventory"
+    }
+  ],
+  "cmykProfile": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 101,
+      "kind": "inventory"
+    }
+  ],
+  "That profile isn’t a CMYK output profile.": [
+    {
+      "file": "Compositor/IO/CMYK.swift",
+      "line": 189,
+      "kind": "inventory"
+    }
+  ],
+  "Canvas Extension": [
+    {
+      "file": "Compositor/IO/CanvasResizer.swift",
+      "line": 63,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/CanvasResizer.swift",
+      "line": 67,
+      "kind": "inventory"
+    }
+  ],
+  "{0}.png": [
+    {
+      "file": "Compositor/IO/CanvasResizer.swift",
+      "line": 69,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 261,
+      "kind": "inventory"
+    }
+  ],
+  "NSDisabledDictationMenuItem": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "NSDisabledCharacterPaletteMenuItem": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "NSMenuItemIndex": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 80,
+      "kind": "inventory"
+    }
+  ],
+  "Sparkle didn't start: {0}": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 84,
+      "kind": "inventory"
+    }
+  ],
+  "UpdateFeedURL": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 87,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 179,
+      "kind": "inventory"
+    }
+  ],
+  "startDictation:": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 176,
+      "kind": "inventory"
+    }
+  ],
+  "orderFrontCharacterPalette:": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 176,
+      "kind": "inventory"
+    }
+  ],
+  "toggleFullScreen:": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 176,
+      "kind": "inventory"
+    }
+  ],
+  "__NSTextViewContextSubmenuIdentifierWritingTools": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 177,
+      "kind": "inventory"
+    }
+  ],
+  "_NSMenuItemAutoFillIdentifier": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 177,
+      "kind": "inventory"
+    }
+  ],
+  "_NSMenuItemLegacyWritingToolsSeparatorIdentifier": [
+    {
+      "file": "Compositor/IO/CompositorApplicationDelegate.swift",
+      "line": 178,
+      "kind": "inventory"
+    }
+  ],
+  "Image export supports canvases up to {0} megapixels and {1} pixels per side.": [
+    {
+      "file": "Compositor/IO/ImageExporter.swift",
+      "line": 10,
+      "kind": "inventory"
+    }
+  ],
+  "The canvas could not be rendered. Try a smaller canvas.": [
+    {
+      "file": "Compositor/IO/ImageExporter.swift",
+      "line": 11,
+      "kind": "inventory"
+    }
+  ],
+  "The image could not be encoded.": [
+    {
+      "file": "Compositor/IO/ImageExporter.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Some dropped items couldn’t be read. Drag JPEG, PNG, HEIC, HEIF, TIFF, WebP, or Photoshop (PSD) files from Finder.": [
+    {
+      "file": "Compositor/IO/ImageFileDrop.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "Dropped": [
+    {
+      "file": "Compositor/IO/ImageFileDrop.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "The image could not be read. It may be damaged or unavailable.": [
+    {
+      "file": "Compositor/IO/ImageImporter.swift",
+      "line": 49,
+      "kind": "inventory"
+    }
+  ],
+  "Choose a JPEG, PNG, HEIC, HEIF, TIFF, WebP, or Photoshop (PSD) file.": [
+    {
+      "file": "Compositor/IO/ImageImporter.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "This import exceeds the current {0}-megapixel document budget or {1}-pixel side limit.": [
+    {
+      "file": "Compositor/IO/ImageImporter.swift",
+      "line": 51,
+      "kind": "inventory"
+    }
+  ],
+  "The smart object was rasterized. Linked contents can’t be edited.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "Layer effects were discarded, so the appearance may differ.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 46,
+      "kind": "inventory"
+    }
+  ],
+  "Vector shape was rasterized to pixels.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 52,
+      "kind": "inventory"
+    }
+  ],
+  "This Photoshop layer type isn’t supported and was imported as pixels.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 56,
+      "kind": "inventory"
+    }
+  ],
+  "pass": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 59,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 62,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 364,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 364,
+      "kind": "inventory"
+    }
+  ],
+  "norm": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 59,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 364,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 46,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 73,
+      "kind": "inventory"
+    }
+  ],
+  "Folder blend mode “{0}” isn’t supported. The folder will be pass-through.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 60,
+      "kind": "inventory"
+    }
+  ],
+  "Blend mode “{0}” isn’t supported and will be applied as Normal.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 63,
+      "kind": "inventory"
+    }
+  ],
+  "This adjustment type isn’t supported and was skipped.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 67,
+      "kind": "inventory"
+    }
+  ],
+  "Adjustment parameters may not match Photoshop exactly.": [
+    {
+      "file": "Compositor/IO/PSD/PSDDocumentBuilder.swift",
+      "line": 69,
+      "kind": "inventory"
+    }
+  ],
+  "8BPS": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 17,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 21,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 31,
+      "kind": "inventory"
+    }
+  ],
+  "8BIM": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 55,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 160,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 197,
+      "kind": "inventory"
+    }
+  ],
+  "LMsk": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Lr16": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Lr32": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Layr": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Mt16": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Mt32": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Mtrn": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Alph": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "FMsk": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "lnk2": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "FEid": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "FXid": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "PxSD": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "8B64": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 197,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 200,
+      "kind": "inventory"
+    }
+  ],
+  "luni": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 209,
+      "kind": "inventory"
+    }
+  ],
+  "iOpa": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 210,
+      "kind": "inventory"
+    }
+  ],
+  "lsct": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 211,
+      "kind": "inventory"
+    }
+  ],
+  "lsdk": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 211,
+      "kind": "inventory"
+    }
+  ],
+  "lfx2": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 368,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 413,
+      "kind": "inventory"
+    }
+  ],
+  "lrFX": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 368,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 413,
+      "kind": "inventory"
+    }
+  ],
+  "lmfx": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 368,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 413,
+      "kind": "inventory"
+    }
+  ],
+  "TySh": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 410,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "tySh": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 410,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "txt2": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 410,
+      "kind": "inventory"
+    }
+  ],
+  "vmsk": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 25,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "vsms": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 25,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "vogk": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 411,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 25,
+      "kind": "inventory"
+    }
+  ],
+  "SoLd": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 412,
+      "kind": "inventory"
+    }
+  ],
+  "SoLE": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 412,
+      "kind": "inventory"
+    }
+  ],
+  "levl": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 485,
+      "kind": "inventory"
+    }
+  ],
+  "curv": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 486,
+      "kind": "inventory"
+    }
+  ],
+  "hue2": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 487,
+      "kind": "inventory"
+    }
+  ],
+  "hue ": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 487,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 83,
+      "kind": "inventory"
+    }
+  ],
+  "expA": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    }
+  ],
+  "grdm": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    }
+  ],
+  "brit": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    }
+  ],
+  "blnc": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    }
+  ],
+  "nvrt": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 419,
+      "kind": "inventory"
+    }
+  ],
+  "thrs": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "post": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "mixr": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "selc": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "blwh": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "phfl": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "vibA": [
+    {
+      "file": "Compositor/IO/PSD/PSDReader.swift",
+      "line": 420,
+      "kind": "inventory"
+    }
+  ],
+  "Editable Photoshop text becomes pixels and can’t be retyped.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "Only the first text style was kept.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 24,
+      "kind": "inventory"
+    }
+  ],
+  "The Photoshop text warp was omitted.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 25,
+      "kind": "inventory"
+    }
+  ],
+  "Faux bold or faux italic was omitted.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 26,
+      "kind": "inventory"
+    }
+  ],
+  "Full justification was imported as left alignment.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "The font “{0}” isn’t installed, so the text was drawn with the system font.": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 31,
+      "kind": "inventory"
+    }
+  ],
+  "Ornt": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "Vrtc": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "warpStyle": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "warpNone": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "none": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "EngineData": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 51,
+      "kind": "inventory"
+    }
+  ],
+  "Txt ": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 52,
+      "kind": "inventory"
+    }
+  ],
+  "Txt": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 52,
+      "kind": "inventory"
+    }
+  ],
+  "EngineDict": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 53,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 135,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 137,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 169,
+      "kind": "inventory"
+    }
+  ],
+  "Editor": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 53,
+      "kind": "inventory"
+    }
+  ],
+  "bounds": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 67,
+      "kind": "inventory"
+    }
+  ],
+  "boundingBox": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 67,
+      "kind": "inventory"
+    }
+  ],
+  "StyleRun": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 135,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 137,
+      "kind": "inventory"
+    }
+  ],
+  "RunArray": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 135,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 137,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 169,
+      "kind": "inventory"
+    }
+  ],
+  "StyleSheet": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 137,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 197,
+      "kind": "inventory"
+    }
+  ],
+  "StyleSheetData": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 137,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 197,
+      "kind": "inventory"
+    }
+  ],
+  "FontSize": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 139,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 200,
+      "kind": "inventory"
+    }
+  ],
+  "ResourceDict": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 142,
+      "kind": "inventory"
+    }
+  ],
+  "FontSet": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 142,
+      "kind": "inventory"
+    }
+  ],
+  "Name": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 144,
+      "kind": "inventory"
+    }
+  ],
+  "FillColor": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 147,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 208,
+      "kind": "inventory"
+    }
+  ],
+  "Values": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 147,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 208,
+      "kind": "inventory"
+    }
+  ],
+  "AutoLeading": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 159,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 202,
+      "kind": "inventory"
+    }
+  ],
+  "FauxBold": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 163,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 206,
+      "kind": "inventory"
+    }
+  ],
+  "FauxItalic": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 163,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 207,
+      "kind": "inventory"
+    }
+  ],
+  "ParagraphRun": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 169,
+      "kind": "inventory"
+    }
+  ],
+  "ParagraphSheet": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 170,
+      "kind": "inventory"
+    }
+  ],
+  "Properties": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 170,
+      "kind": "inventory"
+    }
+  ],
+  "Justification": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 170,
+      "kind": "inventory"
+    }
+  ],
+  "HorizontalScale": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 204,
+      "kind": "inventory"
+    }
+  ],
+  "VerticalScale": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 205,
+      "kind": "inventory"
+    }
+  ],
+  "true": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 344,
+      "kind": "inventory"
+    }
+  ],
+  "false": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 345,
+      "kind": "inventory"
+    }
+  ],
+  "null": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 346,
+      "kind": "inventory"
+    }
+  ],
+  "E": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 387,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 203,
+      "kind": "inventory"
+    }
+  ],
+  "A": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 454,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 454,
+      "kind": "inventory"
+    }
+  ],
+  "F": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 454,
+      "kind": "inventory"
+    }
+  ],
+  "Top ": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 532,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 117,
+      "kind": "inventory"
+    }
+  ],
+  "Rght": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 532,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Btom": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 532,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 119,
+      "kind": "inventory"
+    }
+  ],
+  "doub": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 557,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 258,
+      "kind": "inventory"
+    }
+  ],
+  "UntF": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 560,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 226,
+      "kind": "inventory"
+    }
+  ],
+  "long": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 563,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 233,
+      "kind": "inventory"
+    }
+  ],
+  "bool": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 570,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 220,
+      "kind": "inventory"
+    }
+  ],
+  "TEXT": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 573,
+      "kind": "inventory"
+    }
+  ],
+  "enum": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 576,
+      "kind": "inventory"
+    }
+  ],
+  "tdta": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 579,
+      "kind": "inventory"
+    }
+  ],
+  "Objc": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 582,
+      "kind": "inventory"
+    }
+  ],
+  "GlbO": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 582,
+      "kind": "inventory"
+    }
+  ],
+  "VlLs": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 585,
+      "kind": "inventory"
+    }
+  ],
+  "alis": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 593,
+      "kind": "inventory"
+    }
+  ],
+  "obj ": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 596,
+      "kind": "inventory"
+    }
+  ],
+  "type": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 598,
+      "kind": "inventory"
+    }
+  ],
+  "GlbC": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 598,
+      "kind": "inventory"
+    }
+  ],
+  "prop": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 612,
+      "kind": "inventory"
+    }
+  ],
+  "Clss": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 614,
+      "kind": "inventory"
+    }
+  ],
+  "Enmr": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 616,
+      "kind": "inventory"
+    }
+  ],
+  "rele": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 618,
+      "kind": "inventory"
+    }
+  ],
+  "Idnt": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 620,
+      "kind": "inventory"
+    }
+  ],
+  "indx": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 620,
+      "kind": "inventory"
+    }
+  ],
+  "name": [
+    {
+      "file": "Compositor/IO/PSD/PSDText.swift",
+      "line": 622,
+      "kind": "inventory"
+    }
+  ],
+  "The Photoshop file could not be read. It may be damaged or incomplete.": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 9,
+      "kind": "inventory"
+    }
+  ],
+  "This Photoshop file uses a format version Compositor can’t read.": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 10,
+      "kind": "inventory"
+    }
+  ],
+  "Only 8-bit RGB and CMYK Photoshop files can be imported.": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 11,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "This Photoshop file uses a layer compression method that isn’t supported.": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 13,
+      "kind": "inventory"
+    }
+  ],
+  "mul ": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 74,
+      "kind": "inventory"
+    }
+  ],
+  "scrn": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "over": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 76,
+      "kind": "inventory"
+    }
+  ],
+  "sLit": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 77,
+      "kind": "inventory"
+    }
+  ],
+  "dark": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 78,
+      "kind": "inventory"
+    }
+  ],
+  "lite": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 79,
+      "kind": "inventory"
+    }
+  ],
+  "diff": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 80,
+      "kind": "inventory"
+    }
+  ],
+  "div ": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 81,
+      "kind": "inventory"
+    }
+  ],
+  "idiv": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 82,
+      "kind": "inventory"
+    }
+  ],
+  "sat ": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 84,
+      "kind": "inventory"
+    }
+  ],
+  "colr": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 85,
+      "kind": "inventory"
+    }
+  ],
+  "lum ": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 86,
+      "kind": "inventory"
+    }
+  ],
+  "lbrn": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 87,
+      "kind": "inventory"
+    }
+  ],
+  "lddg": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 88,
+      "kind": "inventory"
+    }
+  ],
+  "hLit": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 89,
+      "kind": "inventory"
+    }
+  ],
+  "vLit": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 90,
+      "kind": "inventory"
+    }
+  ],
+  "lLit": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 91,
+      "kind": "inventory"
+    }
+  ],
+  "pLit": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 92,
+      "kind": "inventory"
+    }
+  ],
+  "hMix": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 93,
+      "kind": "inventory"
+    }
+  ],
+  "smud": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 94,
+      "kind": "inventory"
+    }
+  ],
+  "fsub": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 95,
+      "kind": "inventory"
+    }
+  ],
+  "fdiv": [
+    {
+      "file": "Compositor/IO/PSD/PSDTypes.swift",
+      "line": 96,
+      "kind": "inventory"
+    }
+  ],
+  "vstk": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 21,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 46,
+      "kind": "inventory"
+    }
+  ],
+  "fillEnabled": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 22,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "SoCo": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 22,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 24,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 45,
+      "kind": "inventory"
+    }
+  ],
+  "strokeEnabled": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 23,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "The Photoshop stroke isn’t supported on shape layers and was omitted.": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 36,
+      "kind": "inventory"
+    }
+  ],
+  "strokeStyleLineWidth": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "keyOriginType": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 108,
+      "kind": "inventory"
+    }
+  ],
+  "keyOriginShapeBBox": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 115,
+      "kind": "inventory"
+    }
+  ],
+  "keyOriginRRectRadii": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 125,
+      "kind": "inventory"
+    }
+  ],
+  "topLeft": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "topRight": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "bottomRight": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "bottomLeft": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "Rd  ": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "Grn ": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "Bl  ": [
+    {
+      "file": "Compositor/IO/PSD/PSDVector.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t export PNG": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 53,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t export": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 91,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t change canvas size": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 130,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t resize the image": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 152,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t trim image": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 176,
+      "kind": "inventory"
+    }
+  ],
+  "Untitled.comp": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 223,
+      "kind": "inventory"
+    }
+  ],
+  "Save Project As": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 224,
+      "kind": "inventory"
+    }
+  ],
+  "Save Project": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 224,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t save the project": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 254,
+      "kind": "inventory"
+    }
+  ],
+  "Couldn’t open the project": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 287,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 308,
+      "kind": "inventory"
+    }
+  ],
+  "Open one project at a time": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 400,
+      "kind": "inventory"
+    }
+  ],
+  "PNG": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 418,
+      "kind": "inventory"
+    }
+  ],
+  "JPEG": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 418,
+      "kind": "inventory"
+    }
+  ],
+  "TIFF": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 418,
+      "kind": "inventory"
+    }
+  ],
+  "PDF": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 418,
+      "kind": "inventory"
+    }
+  ],
+  "EXR": [
+    {
+      "file": "Compositor/IO/ProjectController.swift",
+      "line": 418,
+      "kind": "inventory"
+    }
+  ],
+  "manifest.json": [
+    {
+      "file": "Compositor/IO/ProjectDigest.swift",
+      "line": 19,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 121,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 156,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectWatcher.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "images": [
+    {
+      "file": "Compositor/IO/ProjectDigest.swift",
+      "line": 21,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 122,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 174,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectWatcher.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.project": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 7,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 25,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 163,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 214,
+      "kind": "inventory"
+    }
+  ],
+  "com.adobe.photoshop-image": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 8,
+      "kind": "inventory"
+    }
+  ],
+  "com.adobe.photoshop-large-image": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 9,
+      "kind": "inventory"
+    }
+  ],
+  "com.ilm.openexr-image": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 13,
+      "kind": "inventory"
+    }
+  ],
+  "public.radiance": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "This is not a valid Compositor project, or its metadata is damaged.": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 73,
+      "kind": "inventory"
+    }
+  ],
+  "This project uses format version {0}. This app supports versions {1}–{2}.": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 74,
+      "kind": "inventory"
+    }
+  ],
+  "An image inside the project is missing or damaged. The current document has not been replaced.": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "This project exceeds the supported canvas, layer, file-size, or {0}-megapixel document limit.": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 76,
+      "kind": "inventory"
+    }
+  ],
+  "An image could not be saved. The previous project has not been replaced.": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 77,
+      "kind": "inventory"
+    }
+  ],
+  ".exr": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 104,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 182,
+      "kind": "inventory"
+    }
+  ],
+  "QuickLook": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "Preview.jpg": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 127,
+      "kind": "inventory"
+    }
+  ],
+  "{0}.exr": [
+    {
+      "file": "Compositor/IO/ProjectStore.swift",
+      "line": 262,
+      "kind": "inventory"
+    }
+  ],
+  "CFBundleName": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 19,
+      "kind": "inventory"
+    }
+  ],
+  "CFBundleShortVersionString": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 20,
+      "kind": "inventory"
+    }
+  ],
+  "{0} {1} is ready to install — you have {2}.": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 26,
+      "kind": "inventory"
+    }
+  ],
+  "{0} {1} is now available — you have {2}. Would you like to download it now?": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "Install and Relaunch": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "Install Update": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "changes": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "What’s new\n": [
+    {
+      "file": "Compositor/IO/UpdateDriver.swift",
+      "line": 121,
+      "kind": "inventory"
+    }
+  ],
+  "scissors": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 137,
+      "kind": "inventory"
+    }
+  ],
+  "Move pixels": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 137,
+      "kind": "inventory"
+    }
+  ],
+  "arrow.triangle.2.circlepath": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 413,
+      "kind": "inventory"
+    }
+  ],
+  "minus": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 431,
+      "kind": "inventory"
+    }
+  ],
+  "Sample color": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 433,
+      "kind": "inventory"
+    }
+  ],
+  "Zoom out": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 486,
+      "kind": "inventory"
+    }
+  ],
+  "Zoom in": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 486,
+      "kind": "inventory"
+    }
+  ],
+  "editorCanvas": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 671,
+      "kind": "inventory"
+    }
+  ],
+  "init(coder:) has not been implemented": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 673,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 378,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/InlineTextEditor.swift",
+      "line": 131,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/SampleRingOverlay.swift",
+      "line": 14,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/TransformOverlay.swift",
+      "line": 60,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CanvasRulers.swift",
+      "line": 54,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 351,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 979,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1239,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ProjectWindowBridge.swift",
+      "line": 24,
+      "kind": "inventory"
+    }
+  ],
+  "Tip": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 1542,
+      "kind": "inventory"
+    }
+  ],
+  "p": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2216,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 141,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 71,
+      "kind": "inventory"
+    }
+  ],
+  "b": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2290,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 797,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 801,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 806,
+      "kind": "inventory"
+    }
+  ],
+  "CompositorCPUCanvas": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2685,
+      "kind": "inventory"
+    }
+  ],
+  "CIAffineTile": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2754,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorCubeWithColorSpace": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2767,
+      "kind": "inventory"
+    }
+  ],
+  "inputCubeDimension": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2768,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 579,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 584,
+      "kind": "inventory"
+    }
+  ],
+  "inputCubeData": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2769,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 580,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 584,
+      "kind": "inventory"
+    }
+  ],
+  "inputColorSpace": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2770,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 575,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 617,
+      "kind": "inventory"
+    }
+  ],
+  "CIBlendWithRedMask": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 2983,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3136,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3158,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 528,
+      "kind": "inventory"
+    }
+  ],
+  "inputAVector": [
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3127,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/EditorCanvas.swift",
+      "line": 3204,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 535,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.effects-preview": [
+    {
+      "file": "Compositor/Rendering/EffectsPreviewCache.swift",
+      "line": 46,
+      "kind": "inventory"
+    }
+  ],
+  "CILanczosScaleTransform": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 309,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 318,
+      "kind": "inventory"
+    }
+  ],
+  "CIRandomGenerator": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 337,
+      "kind": "inventory"
+    }
+  ],
+  "CIPerspectiveTransformWithExtent": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 453,
+      "kind": "inventory"
+    }
+  ],
+  "inputExtent": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 454,
+      "kind": "inventory"
+    }
+  ],
+  "CIDarkenBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 508,
+      "kind": "inventory"
+    }
+  ],
+  "CIMultiplyBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 509,
+      "kind": "inventory"
+    }
+  ],
+  "CILightenBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 510,
+      "kind": "inventory"
+    }
+  ],
+  "CIScreenBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 511,
+      "kind": "inventory"
+    }
+  ],
+  "CIOverlayBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 512,
+      "kind": "inventory"
+    }
+  ],
+  "CIHardLightBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 514,
+      "kind": "inventory"
+    }
+  ],
+  "CIDifferenceBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 515,
+      "kind": "inventory"
+    }
+  ],
+  "CIExclusionBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 516,
+      "kind": "inventory"
+    }
+  ],
+  "CIHueBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 517,
+      "kind": "inventory"
+    }
+  ],
+  "CISaturationBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 518,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 519,
+      "kind": "inventory"
+    }
+  ],
+  "CILuminosityBlendMode": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 520,
+      "kind": "inventory"
+    }
+  ],
+  "CIMaximumComponent": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 554,
+      "kind": "inventory"
+    }
+  ],
+  "CIMultiplyCompositing": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 559,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorCurves": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 572,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 614,
+      "kind": "inventory"
+    }
+  ],
+  "inputCurvesData": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 573,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 615,
+      "kind": "inventory"
+    }
+  ],
+  "inputCurvesDomain": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 574,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 616,
+      "kind": "inventory"
+    }
+  ],
+  "CIColorCube": [
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 578,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUCanvas.swift",
+      "line": 584,
+      "kind": "inventory"
+    }
+  ],
+  "add_noise": [
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 14,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "add_grain": [
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 26,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "kernel": [
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 51,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "parameters": [
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 51,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/GPUNoise.swift",
+      "line": 76,
+      "kind": "inventory"
+    }
+  ],
+  "continuousBrush": [
+    {
+      "file": "Compositor/Rendering/MetalBrushCoverage.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "camera_raw_lookup": [
+    {
+      "file": "Compositor/Rendering/MetalCameraRawLookup.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "effects_alpha": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 46,
+      "kind": "inventory"
+    }
+  ],
+  "effects_spread_rows": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "effects_spread_columns": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "effects_ring": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 49,
+      "kind": "inventory"
+    }
+  ],
+  "effects_shift": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 50,
+      "kind": "inventory"
+    }
+  ],
+  "effects_blur_rows": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 51,
+      "kind": "inventory"
+    }
+  ],
+  "effects_blur_columns": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 52,
+      "kind": "inventory"
+    }
+  ],
+  "effects_inside": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 53,
+      "kind": "inventory"
+    }
+  ],
+  "effects_compose": [
+    {
+      "file": "Compositor/Rendering/MetalLayerEffects.swift",
+      "line": 54,
+      "kind": "inventory"
+    }
+  ],
+  "warp_pick_up": [
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 116,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "warp_smudge": [
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 124,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "warp_copy": [
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 148,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 156,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "warp_clear": [
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 149,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "warp_push": [
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 157,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/Rendering/MetalWarp.swift",
+      "line": 171,
+      "kind": "inventory"
+    }
+  ],
+  "spotHealingType": [
+    {
+      "file": "Compositor/UI/BrushControls.swift",
+      "line": 29,
+      "kind": "inventory"
+    }
+  ],
+  "Lifts or lowers the brightest tones.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 36,
+      "kind": "inventory"
+    }
+  ],
+  "Lifts or lowers the light tones.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 37,
+      "kind": "inventory"
+    }
+  ],
+  "Lifts or lowers the dark tones.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 38,
+      "kind": "inventory"
+    }
+  ],
+  "Lifts or lowers the darkest tones.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 39,
+      "kind": "inventory"
+    }
+  ],
+  "How much the curve also changes color strength. Zero matches Photoshop; lower keeps it to brightness, higher adds more color.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 55,
+      "kind": "inventory"
+    }
+  ],
+  "Drag on the picture to move the curve for the tone under the pointer.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "scope": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 231,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 299,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the selected color family around the wheel.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 290,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the selected color family stronger or quieter.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 291,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the selected color family lighter or darker.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 292,
+      "kind": "inventory"
+    }
+  ],
+  "{0} of {1}.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 318,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the picked color around the color wheel.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 377,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the picked color stronger or quieter.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 379,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the picked color lighter or darker.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 381,
+      "kind": "inventory"
+    }
+  ],
+  "How far in hue the adjustment reaches.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 383,
+      "kind": "inventory"
+    }
+  ],
+  "How far in saturation the adjustment reaches.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 384,
+      "kind": "inventory"
+    }
+  ],
+  "How far in brightness the adjustment reaches.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 385,
+      "kind": "inventory"
+    }
+  ],
+  "Controls how much the three tonal wheels overlap.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 451,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the wheels toward shadows or highlights.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 454,
+      "kind": "inventory"
+    }
+  ],
+  "Brightness added by this wheel.": [
+    {
+      "file": "Compositor/UI/CameraRawColorControls.swift",
+      "line": 481,
+      "kind": "inventory"
+    }
+  ],
+  "R —   G —   B —": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 65,
+      "kind": "inventory"
+    }
+  ],
+  "R {0}   G {1}   B {2}": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 66,
+      "kind": "inventory"
+    }
+  ],
+  "triangle.fill": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 76,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 121,
+      "kind": "inventory"
+    }
+  ],
+  "chevron.down": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 131,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 998,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ProjectTabs.swift",
+      "line": 280,
+      "kind": "inventory"
+    }
+  ],
+  "chevron.right": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 131,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 998,
+      "kind": "inventory"
+    }
+  ],
+  "Brightens or darkens the whole picture, in stops of light. Hold Option to see clipped highlights.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 202,
+      "kind": "inventory"
+    }
+  ],
+  "Makes light and dark tones more or less different, mostly around the middle.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 204,
+      "kind": "inventory"
+    }
+  ],
+  "Adjusts the bright parts of the picture. Hold Option to see clipped highlights.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 206,
+      "kind": "inventory"
+    }
+  ],
+  "Adjusts the dark parts of the picture. Hold Option to see clipped shadows.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 208,
+      "kind": "inventory"
+    }
+  ],
+  "Sets the brightest point. Hold Option to see clipped highlights.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 210,
+      "kind": "inventory"
+    }
+  ],
+  "Sets the darkest point. Hold Option to see clipped shadows.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the picture from blue to yellow.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 242,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the picture from green to mauve.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 244,
+      "kind": "inventory"
+    }
+  ],
+  "Strengthens quiet colors more than colors that are already strong, and protects skin tones.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 246,
+      "kind": "inventory"
+    }
+  ],
+  "Strengthens or weakens every color by the same amount.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 248,
+      "kind": "inventory"
+    }
+  ],
+  "Adds or softens small detail.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 255,
+      "kind": "inventory"
+    }
+  ],
+  "Adds or softens contrast along broader shapes.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 257,
+      "kind": "inventory"
+    }
+  ],
+  "Clears haze when raised, and adds haze when lowered.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 259,
+      "kind": "inventory"
+    }
+  ],
+  "Spreads a glow from the bright areas.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 262,
+      "kind": "inventory"
+    }
+  ],
+  "Chooses how bright an area must be to glow. Has no effect until Glow is raised.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 269,
+      "kind": "inventory"
+    }
+  ],
+  "Sets how far the glow reaches. Has no effect until Glow is raised.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 271,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts the glow from cool to warm. Halation stays red. Has no effect until Glow is raised.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 273,
+      "kind": "inventory"
+    }
+  ],
+  "Darkens or lightens the edges. The center does not change.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 278,
+      "kind": "inventory"
+    }
+  ],
+  "Sets where the vignette begins, from the center outward.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 285,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the vignette rounder or more square.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 287,
+      "kind": "inventory"
+    }
+  ],
+  "Softens the edge of the vignette.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 289,
+      "kind": "inventory"
+    }
+  ],
+  "Protects bright pixels while a dark vignette is applied. Used by Highlight Priority.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 291,
+      "kind": "inventory"
+    }
+  ],
+  "Adds film grain, strongest in the middle tones.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 296,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the grain coarser or finer.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 298,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the grain smoother or more uneven.": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 300,
+      "kind": "inventory"
+    }
+  ],
+  "eye": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 320,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1058,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1215,
+      "kind": "inventory"
+    }
+  ],
+  "eye.slash": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 320,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1058,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1215,
+      "kind": "inventory"
+    }
+  ],
+  "arrow.counterclockwise": [
+    {
+      "file": "Compositor/UI/CameraRawControls.swift",
+      "line": 330,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ColorPaletteControls.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "Controls how strong the sharpening is.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 13,
+      "kind": "inventory"
+    }
+  ],
+  "How far from each edge the sharpening reaches, in pixels.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "Emphasizes fine texture over broader edges.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 17,
+      "kind": "inventory"
+    }
+  ],
+  "Limits sharpening to stronger edges. Hold Option to see the mask.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 19,
+      "kind": "inventory"
+    }
+  ],
+  "Smooths grain and noise in brightness.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 22,
+      "kind": "inventory"
+    }
+  ],
+  "Preserves fine texture while luminance noise is reduced.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 25,
+      "kind": "inventory"
+    }
+  ],
+  "Keeps local contrast after luminance smoothing.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "Smooths colored speckles.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 32,
+      "kind": "inventory"
+    }
+  ],
+  "Preserves colored edges while color noise is reduced.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 35,
+      "kind": "inventory"
+    }
+  ],
+  "Makes the color smoothing softer or tighter.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 37,
+      "kind": "inventory"
+    }
+  ],
+  "How much of the profile distortion correction is applied.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 101,
+      "kind": "inventory"
+    }
+  ],
+  "How much of the profile vignetting correction is applied.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 103,
+      "kind": "inventory"
+    }
+  ],
+  "Straightens barrel or pincushion bending.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 107,
+      "kind": "inventory"
+    }
+  ],
+  "Weakens purple fringes inside the purple hue range.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "Hue range where purple defringe runs.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 128,
+      "kind": "inventory"
+    }
+  ],
+  "Weakens green fringes inside the green hue range.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 130,
+      "kind": "inventory"
+    }
+  ],
+  "Hue range where green defringe runs.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 132,
+      "kind": "inventory"
+    }
+  ],
+  "Brightens or darkens the corners to counter lens falloff.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 134,
+      "kind": "inventory"
+    }
+  ],
+  "Moves the vignette correction inward or outward.": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 136,
+      "kind": "inventory"
+    }
+  ],
+  "Purple": [
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 173,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+      "line": 178,
+      "kind": "inventory"
+    }
+  ],
+  "line.diagonal": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "Straightens vertical lines toward the center.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "Straightens horizontal lines toward the center.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "Rotates the picture around its center.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 44,
+      "kind": "inventory"
+    }
+  ],
+  "Stretches width relative to height.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 45,
+      "kind": "inventory"
+    }
+  ],
+  "Zooms the transformed picture within the frame.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 46,
+      "kind": "inventory"
+    }
+  ],
+  "Moves the picture left or right.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "Moves the picture up or down.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "Adds green or magenta to the darkest tones.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 107,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts how red is interpreted.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "Strengthens or weakens the red primary.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 110,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts how green is interpreted.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 112,
+      "kind": "inventory"
+    }
+  ],
+  "Strengthens or weakens the green primary.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 113,
+      "kind": "inventory"
+    }
+  ],
+  "Shifts how blue is interpreted.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 115,
+      "kind": "inventory"
+    }
+  ],
+  "Strengthens or weakens the blue primary.": [
+    {
+      "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Top left": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Top center": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Top right": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Middle left": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Middle right": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Bottom left": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Bottom center": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Bottom right": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 12,
+      "kind": "inventory"
+    }
+  ],
+  "Foreground": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 57,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "circle.fill": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 108,
+      "kind": "inventory"
+    }
+  ],
+  "circle": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 108,
+      "kind": "inventory"
+    }
+  ],
+  "Selected": [
+    {
+      "file": "Compositor/UI/CanvasSizeSheet.swift",
+      "line": 113,
+      "kind": "inventory"
+    }
+  ],
+  "arrow.left.and.right": [
+    {
+      "file": "Compositor/UI/ColorPaletteControls.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "Background color": [
+    {
+      "file": "Compositor/UI/ColorPaletteControls.swift",
+      "line": 59,
+      "kind": "inventory"
+    }
+  ],
+  "{0} degrees": [
+    {
+      "file": "Compositor/UI/ColorPickerSheet.swift",
+      "line": 96,
+      "kind": "inventory"
+    }
+  ],
+  "B": [
+    {
+      "file": "Compositor/UI/ColorPickerSheet.swift",
+      "line": 111,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 202,
+      "kind": "inventory"
+    }
+  ],
+  "colorPickerPanel": [
+    {
+      "file": "Compositor/UI/ColorPickerSheet.swift",
+      "line": 171,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ColorPickerSheet.swift",
+      "line": 172,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to select that color": [
+    {
+      "file": "Compositor/UI/ColorRangeSheet.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to add that color to the selection": [
+    {
+      "file": "Compositor/UI/ColorRangeSheet.swift",
+      "line": 76,
+      "kind": "inventory"
+    }
+  ],
+  "Click the image to take that color out of the selection": [
+    {
+      "file": "Compositor/UI/ColorRangeSheet.swift",
+      "line": 77,
+      "kind": "inventory"
+    }
+  ],
+  "Layer › Add Layer Mask from Selection": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 179,
+      "kind": "inventory"
+    }
+  ],
+  "Layer › Add Layer Mask": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 179,
+      "kind": "inventory"
+    }
+  ],
+  "Layer › Add Layer Mask Hiding Selection": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 182,
+      "kind": "inventory"
+    }
+  ],
+  "Layer › Add Layer Mask (Hide All)": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 182,
+      "kind": "inventory"
+    }
+  ],
+  "Move / Transform": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 194,
+      "kind": "inventory"
+    }
+  ],
+  "V": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 194,
+      "kind": "inventory"
+    }
+  ],
+  "L": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 197,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 198,
+      "kind": "inventory"
+    }
+  ],
+  "W": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 199,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 200,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 24,
+      "kind": "inventory"
+    }
+  ],
+  "C": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 201,
+      "kind": "inventory"
+    }
+  ],
+  "Spot Healing Brush": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 204,
+      "kind": "inventory"
+    }
+  ],
+  "J": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 204,
+      "kind": "inventory"
+    }
+  ],
+  "S": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 205,
+      "kind": "inventory"
+    }
+  ],
+  "U": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 210,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 211,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 212,
+      "kind": "inventory"
+    }
+  ],
+  "T": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 213,
+      "kind": "inventory"
+    }
+  ],
+  "I": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 214,
+      "kind": "inventory"
+    }
+  ],
+  "Hand": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 215,
+      "kind": "inventory"
+    }
+  ],
+  "H": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 215,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 25,
+      "kind": "inventory"
+    }
+  ],
+  "Z": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 216,
+      "kind": "inventory"
+    }
+  ],
+  "Tool › {0}": [
+    {
+      "file": "Compositor/UI/CommandPalette.swift",
+      "line": 219,
+      "kind": "inventory"
+    }
+  ],
+  "checkmark": [
+    {
+      "file": "Compositor/UI/CommandPaletteView.swift",
+      "line": 56,
+      "kind": "inventory"
+    }
+  ],
+  "Services": [
+    {
+      "file": "Compositor/UI/CommandPaletteView.swift",
+      "line": 75,
+      "kind": "inventory"
+    }
+  ],
+  "jpegExportQuality": [
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 21,
+      "kind": "inventory"
+    }
+  ],
+  "{0} × {1} in at {2} DPI": [
+    {
+      "file": "Compositor/UI/ExportAsSheet.swift",
+      "line": 297,
+      "kind": "inventory"
+    }
+  ],
+  "Choose the dark color": [
+    {
+      "file": "Compositor/UI/FilterSheet.swift",
+      "line": 256,
+      "kind": "inventory"
+    }
+  ],
+  "Choose the light color": [
+    {
+      "file": "Compositor/UI/FilterSheet.swift",
+      "line": 258,
+      "kind": "inventory"
+    }
+  ],
+  "Choose the screen's color": [
+    {
+      "file": "Compositor/UI/FilterSheet.swift",
+      "line": 307,
+      "kind": "inventory"
+    }
+  ],
+  "Choose the lines' color": [
+    {
+      "file": "Compositor/UI/FilterSheet.swift",
+      "line": 309,
+      "kind": "inventory"
+    }
+  ],
+  "{0}. Double-click to reset.": [
+    {
+      "file": "Compositor/UI/FilterSheet.swift",
+      "line": 362,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/HueSaturationSheet.swift",
+      "line": 131,
+      "kind": "inventory"
+    }
+  ],
+  "hand.point.up.left": [
+    {
+      "file": "Compositor/UI/HueSaturationSheet.swift",
+      "line": 100,
+      "kind": "inventory"
+    }
+  ],
+  "Delete": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Return": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Esc": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Tab": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Space": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "Fill with Foreground": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 97,
+      "kind": "inventory"
+    }
+  ],
+  "Fill with Background": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 98,
+      "kind": "inventory"
+    }
+  ],
+  "Inverse Selection": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 100,
+      "kind": "inventory"
+    }
+  ],
+  "Invert Pixels / Mask": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 102,
+      "kind": "inventory"
+    }
+  ],
+  "Transform Layer / Selection": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 104,
+      "kind": "inventory"
+    }
+  ],
+  "Duplicate / Layer via Copy": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 104,
+      "kind": "inventory"
+    }
+  ],
+  "Toggle Clipping Mask": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 105,
+      "kind": "inventory"
+    }
+  ],
+  "Show Grid": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "Show Guides": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 109,
+      "kind": "inventory"
+    }
+  ],
+  "Show Rulers": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 110,
+      "kind": "inventory"
+    }
+  ],
+  "Toggle Fullscreen: the canvas alone on black (Esc also leaves)": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Select tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Move / Transform tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Hand tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 116,
+      "kind": "inventory"
+    }
+  ],
+  "Zoom tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    }
+  ],
+  "Brush tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 117,
+      "kind": "inventory"
+    }
+  ],
+  "Type tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Gradient tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Shape tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 118,
+      "kind": "inventory"
+    }
+  ],
+  "Eyedropper tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 119,
+      "kind": "inventory"
+    }
+  ],
+  "Marquee / cycle shape": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 119,
+      "kind": "inventory"
+    }
+  ],
+  "Lasso / cycle mode": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Blur / Smudge / Liquify": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Crop tool": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Swap foreground/background": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 121,
+      "kind": "inventory"
+    }
+  ],
+  "Reset colors": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 121,
+      "kind": "inventory"
+    }
+  ],
+  "Cycle tool mode": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 121,
+      "kind": "inventory"
+    }
+  ],
+  "Temporary Hand tool (hold)": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 122,
+      "kind": "inventory"
+    }
+  ],
+  "Delete selection / layer / effect / lasso point": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 122,
+      "kind": "inventory"
+    }
+  ],
+  "Apply current canvas operation": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 123,
+      "kind": "inventory"
+    }
+  ],
+  "Cancel current canvas operation": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 123,
+      "kind": "inventory"
+    }
+  ],
+  "Decrease brush size": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 124,
+      "kind": "inventory"
+    }
+  ],
+  "Increase brush size": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 124,
+      "kind": "inventory"
+    }
+  ],
+  "Decrease brush hardness": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 127,
+      "kind": "inventory"
+    }
+  ],
+  "Increase brush hardness": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 127,
+      "kind": "inventory"
+    }
+  ],
+  "Previous blend mode": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 128,
+      "kind": "inventory"
+    }
+  ],
+  "Next blend mode": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 128,
+      "kind": "inventory"
+    }
+  ],
+  "Cycle shape kind": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 129,
+      "kind": "inventory"
+    }
+  ],
+  "Opacity digit {0} (type two for exact %)": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 130,
+      "kind": "inventory"
+    }
+  ],
+  "Up": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 131,
+      "kind": "inventory"
+    }
+  ],
+  "Down": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 131,
+      "kind": "inventory"
+    }
+  ],
+  "Nudge {0} 1 px": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 132,
+      "kind": "inventory"
+    }
+  ],
+  "Nudge {0} 10 px": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 132,
+      "kind": "inventory"
+    }
+  ],
+  "Move selected pixels {0} 1 px": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 133,
+      "kind": "inventory"
+    }
+  ],
+  "Move selected pixels {0} 10 px": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 133,
+      "kind": "inventory"
+    }
+  ],
+  "Finish editing text": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 135,
+      "kind": "inventory"
+    }
+  ],
+  "Decrease tracking": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 136,
+      "kind": "inventory"
+    }
+  ],
+  "Increase tracking": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 136,
+      "kind": "inventory"
+    }
+  ],
+  "Decrease leading": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 137,
+      "kind": "inventory"
+    }
+  ],
+  "Increase leading": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 137,
+      "kind": "inventory"
+    }
+  ],
+  " by 10": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 139,
+      "kind": "inventory"
+    }
+  ],
+  "Toggle Levels preview": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 141,
+      "kind": "inventory"
+    }
+  ],
+  "keyboardShortcuts": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 150,
+      "kind": "inventory"
+    }
+  ],
+  "keyboardShortcuts.v1": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 151,
+      "kind": "inventory"
+    }
+  ],
+  "Choose a single key with optional modifiers.": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 203,
+      "kind": "inventory"
+    }
+  ],
+  "Text-editing shortcuts need Command, Option, or Control so they do not replace normal typing.": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 205,
+      "kind": "inventory"
+    }
+  ],
+  "q": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 207,
+      "kind": "inventory"
+    }
+  ],
+  "{0} is reserved by macOS.": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 208,
+      "kind": "inventory"
+    }
+  ],
+  "{0} is assigned to both {1} and {2}.": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 210,
+      "kind": "inventory"
+    }
+  ],
+  "xmark.circle.fill": [
+    {
+      "file": "Compositor/UI/KeyboardShortcuts.swift",
+      "line": 297,
+      "kind": "inventory"
+    }
+  ],
+  "rectangle.inset.filled": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 11,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 26,
+      "kind": "inventory"
+    }
+  ],
+  "Stop viewing the mask": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 26,
+      "kind": "inventory"
+    }
+  ],
+  "Show the image again (or Option-click the mask thumbnail)": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 27,
+      "kind": "inventory"
+    }
+  ],
+  "exclamationmark.triangle": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "Hide the gamut warning": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  "Stop marking colors the profile can't print": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "printer": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 44,
+      "kind": "inventory"
+    }
+  ],
+  "Stop proofing": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 44,
+      "kind": "inventory"
+    }
+  ],
+  "Show the document's own colors again": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 45,
+      "kind": "inventory"
+    }
+  ],
+  "CMYK Proof": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "xmark": [
+    {
+      "file": "Compositor/UI/LayerMaskMenu.swift",
+      "line": 73,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/ProjectTabs.swift",
+      "line": 368,
+      "kind": "inventory"
+    }
+  ],
+  "layerCount": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 17,
+      "kind": "inventory"
+    }
+  ],
+  "square.3.layers.3d": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 26,
+      "kind": "inventory"
+    }
+  ],
+  "plus.square": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 37,
+      "kind": "inventory"
+    }
+  ],
+  "addBlankLayer": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 39,
+      "kind": "inventory"
+    }
+  ],
+  "folder.badge.plus": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 40,
+      "kind": "inventory"
+    }
+  ],
+  "sparkles": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 53,
+      "kind": "inventory"
+    }
+  ],
+  "layerEffects": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 56,
+      "kind": "inventory"
+    }
+  ],
+  "trash": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "deleteLayer": [
+    {
+      "file": "Compositor/UI/LayersPanel.swift",
+      "line": 61,
+      "kind": "inventory"
+    }
+  ],
+  "Input black": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 30,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Input white": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 34,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Output black": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 41,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "Output white": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 43,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 120,
+      "kind": "inventory"
+    }
+  ],
+  "levels{0}": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 96,
+      "kind": "inventory"
+    }
+  ],
+  "levelsOutput": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 126,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 144,
+      "kind": "inventory"
+    }
+  ],
+  "levelsInput": [
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 126,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/LevelsSheet.swift",
+      "line": 144,
+      "kind": "inventory"
+    }
+  ],
+  "layer": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 20,
+      "kind": "inventory"
+    }
+  ],
+  "layersList": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 31,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.layer-effect": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  "com.compositor.layer-mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 48,
+      "kind": "inventory"
+    }
+  ],
+  "Delete Selected Layers": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 143,
+      "kind": "inventory"
+    }
+  ],
+  "Enable Mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 219,
+      "kind": "inventory"
+    }
+  ],
+  "Disable Mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 219,
+      "kind": "inventory"
+    }
+  ],
+  "Link Mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 232,
+      "kind": "inventory"
+    }
+  ],
+  "Unlink Mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 232,
+      "kind": "inventory"
+    }
+  ],
+  "layerCell": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 367,
+      "kind": "inventory"
+    }
+  ],
+  "Move Layers": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 486,
+      "kind": "inventory"
+    }
+  ],
+  "arrow.turn.down.right": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 596,
+      "kind": "inventory"
+    }
+  ],
+  "rectangle.badge.minus": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 597,
+      "kind": "inventory"
+    }
+  ],
+  "rectangle.badge.plus": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 597,
+      "kind": "inventory"
+    }
+  ],
+  "Release clipping mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 611,
+      "kind": "inventory"
+    }
+  ],
+  "Create clipping mask": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 611,
+      "kind": "inventory"
+    }
+  ],
+  "eye.fill": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 624,
+      "kind": "inventory"
+    }
+  ],
+  "Show mask alone": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 636,
+      "kind": "inventory"
+    }
+  ],
+  "link": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 842,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 28,
+      "kind": "inventory"
+    }
+  ],
+  "Linked": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 842,
+      "kind": "inventory"
+    }
+  ],
+  "Expand or collapse folder": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 998,
+      "kind": "inventory"
+    }
+  ],
+  "Editable text": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1011,
+      "kind": "inventory"
+    }
+  ],
+  "Link layer and mask so they move together": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1035,
+      "kind": "inventory"
+    }
+  ],
+  "Unlink layer and mask to move or transform them separately": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1036,
+      "kind": "inventory"
+    }
+  ],
+  "Editable text layer": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1038,
+      "kind": "inventory"
+    }
+  ],
+  "Select image pixels": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1038,
+      "kind": "inventory"
+    }
+  ],
+  "Text · Double-click to edit": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1047,
+      "kind": "inventory"
+    }
+  ],
+  "Adjustment · Double-click to edit": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1047,
+      "kind": "inventory"
+    }
+  ],
+  "Folder": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1047,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1168,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1176,
+      "kind": "inventory"
+    }
+  ],
+  "HDR layer: keeps light brighter than white, shown as white": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1049,
+      "kind": "inventory"
+    }
+  ],
+  "16-bit layer: keeps 16 bits a channel": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1050,
+      "kind": "inventory"
+    }
+  ],
+  "Missing source": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1054,
+      "kind": "inventory"
+    }
+  ],
+  "Clipped to {0}": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1055,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1076,
+      "kind": "inventory"
+    }
+  ],
+  "folder": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1168,
+      "kind": "inventory"
+    }
+  ],
+  "Click to select; double-click to edit; Option-drag to copy ": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1233,
+      "kind": "inventory"
+    }
+  ],
+  "HDR": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1487,
+      "kind": "inventory"
+    }
+  ],
+  "16-Bit": [
+    {
+      "file": "Compositor/UI/NativeLayerList.swift",
+      "line": 1487,
+      "kind": "inventory"
+    }
+  ],
+  "%g": [
+    {
+      "file": "Compositor/UI/NavigationToolHeader.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "%.2f": [
+    {
+      "file": "Compositor/UI/NavigationToolHeader.swift",
+      "line": 62,
+      "kind": "inventory"
+    },
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 143,
+      "kind": "inventory"
+    }
+  ],
+  "in": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 7,
+      "kind": "inventory"
+    }
+  ],
+  "cm": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 7,
+      "kind": "inventory"
+    }
+  ],
+  "mm": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 7,
+      "kind": "inventory"
+    }
+  ],
+  "Millimeters": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 15,
+      "kind": "inventory"
+    }
+  ],
+  "en_US_POSIX": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 40,
+      "kind": "inventory"
+    }
+  ],
+  "{0} canvas": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 47,
+      "kind": "inventory"
+    }
+  ],
+  " · {0} DPI: {1} × {2} pixels": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 76,
+      "kind": "inventory"
+    }
+  ],
+  "Resolution: 72 for screens, 300 for print. Click to switch.": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 77,
+      "kind": "inventory"
+    }
+  ],
+  "multiply": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 126,
+      "kind": "inventory"
+    }
+  ],
+  "Start see-through, or with a white or black Background layer. Click to switch.": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 131,
+      "kind": "inventory"
+    }
+  ],
+  "canvasBackground": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 134,
+      "kind": "inventory"
+    }
+  ],
+  "Units: pixels, inches, centimeters or millimeters. Click to switch.": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 136,
+      "kind": "inventory"
+    }
+  ],
+  "canvasUnit": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 139,
+      "kind": "inventory"
+    }
+  ],
+  "{0} DPI": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 143,
+      "kind": "inventory"
+    }
+  ],
+  "canvasResolution": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 146,
+      "kind": "inventory"
+    }
+  ],
+  "createCanvas": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 164,
+      "kind": "inventory"
+    }
+  ],
+  "Input": [
+    {
+      "file": "Compositor/UI/NewCanvasSheet.swift",
+      "line": 209,
+      "kind": "inventory"
+    }
+  ],
+  "1 more tab": [
+    {
+      "file": "Compositor/UI/ProjectTabLayout.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "{0} more tabs": [
+    {
+      "file": "Compositor/UI/ProjectTabLayout.swift",
+      "line": 30,
+      "kind": "inventory"
+    }
+  ],
+  "projectTabsOverflow": [
+    {
+      "file": "Compositor/UI/ProjectTabs.swift",
+      "line": 297,
+      "kind": "inventory"
+    }
+  ],
+  " EV": [
+    {
+      "file": "Compositor/UI/RawDevelopSheet.swift",
+      "line": 42,
+      "kind": "inventory"
+    }
+  ],
+  " K": [
+    {
+      "file": "Compositor/UI/RawDevelopSheet.swift",
+      "line": 43,
+      "kind": "inventory"
+    }
+  ],
+  "transformAutoSelect": [
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 17,
+      "kind": "inventory"
+    }
+  ],
+  "X": [
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 22,
+      "kind": "inventory"
+    }
+  ],
+  "Y": [
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 23,
+      "kind": "inventory"
+    }
+  ],
+  "applyTransform": [
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 57,
+      "kind": "inventory"
+    }
+  ],
+  "transform{0}": [
+    {
+      "file": "Compositor/UI/TransformInspector.swift",
+      "line": 123,
+      "kind": "inventory"
+    }
+  ],
+  "text.alignleft": [
+    {
+      "file": "Compositor/UI/TypeControls.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "text.aligncenter": [
+    {
+      "file": "Compositor/UI/TypeControls.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "text.alignright": [
+    {
+      "file": "Compositor/UI/TypeControls.swift",
+      "line": 58,
+      "kind": "inventory"
+    }
+  ],
+  "(Multiple)": [
+    {
+      "file": "Compositor/UI/TypeControls.swift",
+      "line": 144,
+      "kind": "inventory"
+    }
+  ]
+}

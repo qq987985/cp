@@ -1,0 +1,536 @@
+[
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "line": 62,
+    "expression": "url.deletingPathExtension().lastPathComponent",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "line": 155,
+    "expression": "profile.name",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "line": 302,
+    "expression": "\"\\(kind.rawValue)…\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "line": 337,
+    "expression": "\"\\(kind.rawValue)…\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/CompositorApp.swift",
+    "line": 344,
+    "expression": "kind.rawValue + (kind.isEditable ? \"…\" : \"\")",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "line": 208,
+    "expression": "\"100%\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "line": 296,
+    "expression": "session.importError ?? \"\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "line": 300,
+    "expression": "session.brushError ?? \"\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "line": 304,
+    "expression": "session.cropError ?? \"\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/ContentView.swift",
+    "line": 352,
+    "expression": "session.viewport.zoom",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 120,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 124,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 306,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 400,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 469,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 477,
+    "expression": "\"\\(Int(wheel.hue.rounded()))°  \\(Int(wheel.saturation.rounded()))\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawColorControls.swift",
+    "line": 488,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawControls.swift",
+    "line": 57,
+    "expression": "readout",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawControls.swift",
+    "line": 338,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+    "line": 44,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+    "line": 65,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+    "line": 144,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawDetailOpticsControls.swift",
+    "line": 164,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+    "line": 65,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CameraRawGeometryCalibrationControls.swift",
+    "line": 124,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 22,
+    "expression": "_ widthAxis: Bool",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 79,
+    "expression": "true",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 80,
+    "expression": "true",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 84,
+    "expression": "false",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 85,
+    "expression": "false",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CanvasSizeSheet.swift",
+    "line": 126,
+    "expression": "$0",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ColorPickerSheet.swift",
+    "line": 113,
+    "expression": "\"#\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ColorRangeSheet.swift",
+    "line": 17,
+    "expression": "mode",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ColorRangeSheet.swift",
+    "line": 37,
+    "expression": "error",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ColorRangeSheet.swift",
+    "line": 73,
+    "expression": "_ mode: HueSampleMode",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CommandPaletteView.swift",
+    "line": 58,
+    "expression": "entry.title",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CommandPaletteView.swift",
+    "line": 60,
+    "expression": "shortcut",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/CropControls.swift",
+    "line": 12,
+    "expression": "$0",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 48,
+    "expression": ".stroke",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 65,
+    "expression": ".shadow",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 88,
+    "expression": ".colorOverlay",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 102,
+    "expression": ".innerShadow",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 125,
+    "expression": ".outerGlow",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 142,
+    "expression": ".innerGlow",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 155,
+    "expression": "_ kind: LayerEffectKind",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/EffectsSheet.swift",
+    "line": 170,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 120,
+    "expression": "\"×\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 123,
+    "expression": "\"\\(scalePercent)%\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 125,
+    "expression": "\"\\(percent)%\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 136,
+    "expression": "\"\\(Int((options.quality * 100).rounded()))%\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 164,
+    "expression": "pageSize",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 182,
+    "expression": "error",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 184,
+    "expression": "ByteCountFormatter.string(fromByteCount: Int64(result.data.count), countStyle: .file)",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ExportAsSheet.swift",
+    "line": 279,
+    "expression": "\"\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 168,
+    "expression": "error",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 256,
+    "expression": "dither.dark",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 258,
+    "expression": "dither.light",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 307,
+    "expression": "lines.dark",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 309,
+    "expression": "lines.light",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 315,
+    "expression": "_ color: AdjustmentColor",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 348,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/FilterSheet.swift",
+    "line": 404,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/HueSaturationSheet.swift",
+    "line": 125,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/HueSaturationSheet.swift",
+    "line": 157,
+    "expression": "settings.band.handles.map { \"\\(Int($0.rounded()))°\" }.joined(separator: \"   \")",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ImageSizeSheet.swift",
+    "line": 110,
+    "expression": "$0",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/KeyboardShortcuts.swift",
+    "line": 278,
+    "expression": "group",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/KeyboardShortcuts.swift",
+    "line": 313,
+    "expression": "problem",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/LassoControls.swift",
+    "line": 104,
+    "expression": "$0.title",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/LassoControls.swift",
+    "line": 146,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/LayerAppearanceControls.swift",
+    "line": 34,
+    "expression": "\"%\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/LayersPanel.swift",
+    "line": 16,
+    "expression": "\"\\(session.document?.layers.count ?? 0)\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/LayersPanel.swift",
+    "line": 51,
+    "expression": "kind.rawValue + \"…\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "line": 1059,
+    "expression": "\"\\(layer.isVisible ? \"Hide\" : \"Show\") \\(layer.name)\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NativeLayerList.swift",
+    "line": 1126,
+    "expression": "_ control: NSControl",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NewCanvasSheet.swift",
+    "line": 104,
+    "expression": "$0.title",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NewCanvasSheet.swift",
+    "line": 135,
+    "expression": "\"·\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NewCanvasSheet.swift",
+    "line": 140,
+    "expression": "\"·\"",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/NewCanvasSheet.swift",
+    "line": 203,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/PSDConversionSheet.swift",
+    "line": 39,
+    "expression": "item.layerName",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ProjectTabs.swift",
+    "line": 279,
+    "expression": "label",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ProjectTabs.swift",
+    "line": 296,
+    "expression": "label",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ProjectTabs.swift",
+    "line": 308,
+    "expression": "label",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ProjectTabs.swift",
+    "line": 350,
+    "expression": "tab.title",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/RawDevelopSheet.swift",
+    "line": 96,
+    "expression": "_ title: String",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ToolHeaderStyle.swift",
+    "line": 16,
+    "expression": "unit",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ToolHeaderStyle.swift",
+    "line": 25,
+    "expression": "unit",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/ToolHeaderStyle.swift",
+    "line": 33,
+    "expression": "unit",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/TransformInspector.swift",
+    "line": 137,
+    "expression": "suffix",
+    "reason": "dynamic/user data: manual classification required"
+  },
+  {
+    "file": "Compositor/UI/TrimSheet.swift",
+    "line": 19,
+    "expression": "\"\"",
+    "reason": "dynamic/user data: manual classification required"
+  }
+]

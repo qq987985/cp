@@ -1,0 +1,22 @@
+name: Build Chinese App
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild -version
+      - run: bash scripts/build.sh
+      - run: ditto -c -k --sequesterRsrc --keepParent build/products/Compositor-zh-CN.app build/Compositor-zh-CN-app.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Compositor-zh-CN-app
+          path: build/Compositor-zh-CN-app.zip
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-logs
+          path: build/logs/
