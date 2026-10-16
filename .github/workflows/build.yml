@@ -20,10 +20,14 @@ jobs:
         run: python3 scripts/verify_bundle.py build/package-check/Compositor-zh-CN.app
       - name: Smoke launch the extracted app in the runner GUI session
         run: python3 scripts/smoke_launch.py build/package-check/Compositor-zh-CN.app --seconds 12
+      - name: Create and verify the drag-to-Applications installer
+        run: python3 scripts/package_dmg.py build/package-check/Compositor-zh-CN.app build/Compositor-zh-CN.dmg
       - uses: actions/upload-artifact@v4
         with:
           name: Compositor-zh-CN-app
-          path: build/Compositor-zh-CN-app.zip
+          path: |
+            build/Compositor-zh-CN.dmg
+            build/Compositor-zh-CN-app.zip
       - uses: actions/upload-artifact@v4
         if: always()
         with:

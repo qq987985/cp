@@ -8,15 +8,17 @@
 
 [下载最新版（GitHub Releases）](https://github.com/qq987985/cp/releases/latest) · [build 50 启动修复版](https://github.com/qq987985/cp/releases/tag/zh-cn-v1.5.3-build50)
 
-解压得到 `Compositor-zh-CN.app`，用 build 50 替换旧 build 49。无需自行编译。源码和 SHA-256 校验文件也在同一发布页面。
+优先下载发布页中的 **`.dmg` 安装盘**，双击打开，将 `Compositor-zh-CN.app` 拖到 **Applications（应用程序）**，然后从“应用程序”启动。替换旧版前先退出 App，用 build 50 替换旧 build 49。无需自行编译。
+
+备用 App ZIP 解压后也可将 App 拖入“应用程序”。带 `project` 或 `source` 的 ZIP 以及 GitHub 自动生成的 **Source code** 是开发源码，不是安装包。源码和 SHA-256 校验文件在同一发布页面。DMG 保留 App 原有本地签名，未进行 Apple 公证。
 
 ## 以后升级：只在 GitHub 网页操作
 
 1. 打开 [一键升级入口：Upgrade and release Chinese App](https://github.com/qq987985/cp/actions/workflows/upgrade.yml)。
 2. 点击 **Run workflow**，分支选择 **main**。`upstream_ref` 保持 **main**，再次点击绿色 **Run workflow**。
-3. 等运行显示绿色勾号，再到 [Releases 最新版](https://github.com/qq987985/cp/releases/latest) 下载 App ZIP，退出旧 App 后替换即可。不需要本地源码或 Xcode。
+3. 等运行显示绿色勾号，再到 [Releases 最新版](https://github.com/qq987985/cp/releases/latest) 下载 **DMG 安装盘**，退出旧 App 后拖入“应用程序”替换即可。不需要本地源码或 Xcode。
 
-流程自动取得官方完整提交、保留中文词典、更新快照、重新构建并验证最终 ZIP 的实际启动。全部通过后才推送新快照并发布新版本、源码 ZIP 和 SHA-256；相同提交已发布时直接提示无需升级，不会重复发布。
+流程自动取得官方完整提交、保留中文词典、更新快照、重新构建并验证最终 ZIP 的实际启动，再生成 DMG、只读挂载检查盘内 App 的内容和签名。全部通过后才推送新快照并发布新版本 DMG、备用 App ZIP、源码 ZIP 和 SHA-256；相同提交已发布时直接提示无需升级，不会重复发布。
 
 `main` 表示官方最新源码；`latest` 表示官方最新正式发行版，也可填官方标签或完整 commit SHA。落后于当前基线或分叉的版本不会覆盖现有版本。当前基线比 v1.5.3 正式标签领先一个更新源提交，因此现在选 latest 会保持现状。
 
@@ -49,6 +51,7 @@ bash scripts/run.sh
 | `UPSTREAM_COMMIT` | 快照对应的精确 Git 提交 |
 | `scripts/localize.py` | 拉取、提取、显示边界补丁、翻译、导入和漏翻报告 |
 | `scripts/CN.swift` | 显示文本翻译，支持编号占位符与英文回退 |
+| `scripts/package_dmg.py` | 用 macOS 自带工具制作 DMG，验证盘内 App 和 Applications 拖放链接 |
 | `translations/zh-CN.json` | 人工中文译文，优先级最高；直接编辑此文件 |
 | `translations/glossary.tsv` | 初始术语参考；修改不会自动覆盖 JSON |
 | `translations/inventory.json` | 所有候选字符串、文件和行号；也包含不应翻译的代码标识 |
@@ -115,7 +118,9 @@ App 中依次验收：菜单栏、画笔与选区工具、图层右键、全部�
 
 ## GitHub 构建
 
-Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压内层 ZIP 得到 App。当前流程会对最终 ZIP 解压副本进行框架链接、资源、严格签名和至少 10 秒的实际启动检查；任一失败则不上传 App。本次成功构建记录见 reports/cloud-build.md；后续是否成功以对应运行日志为准。
+Actions 中 `Verify` 会检查准备流程与回归测试；`Build Chinese App` 需手动点击 Run workflow，使用 macOS 26 / Xcode 构建。成功后下载 `Compositor-zh-CN-app` artifact，解压 GitHub 外层压缩包后打开其中的 `.dmg`。当前流程会对最终 ZIP 解压副本进行框架链接、资源、严格签名和至少 10 秒的实际启动检查，并挂载验证生成的 DMG；任一失败则不上传 App。本次成功构建记录见 reports/cloud-build.md；后续是否成功以对应运行日志为准。
+
+本地已有构建产物时，也可运行 `python3 scripts/package_dmg.py build/products/Compositor-zh-CN.app build/Compositor-zh-CN.dmg`。只处理指定 App 的临时副本，不安装 App 或修改系统安全设置；检查结果保存在 `build/logs/dmg-verification.json`。
 
 ## 来源与限制
 

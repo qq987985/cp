@@ -199,6 +199,15 @@ def verify():
     smoke = load(ROOT / "build/logs/smoke-launch.json")
     if bundle_check.get("status") != "PASS" or smoke.get("status") != "PASS" or smoke.get("observed_seconds", 0) < 10:
         raise ValueError("最终 ZIP 的签名/资源或启动报告未通过")
+    app_dmg = app_zip.with_suffix(".dmg")
+    dmg_report_path = ROOT / "build/logs/upgrade-dmg.json"
+    run(sys.executable, ROOT / "scripts/package_dmg.py", extracted / app.name, app_dmg,
+        "--report", dmg_report_path)
+    dmg_report = load(dmg_report_path)
+    if (dmg_report.get("status") != "PASS"
+            or Path(dmg_report.get("dmgPath", "")).resolve() != app_dmg.resolve()
+            or dmg_report.get("dmgSha256") != sha256(app_dmg)):
+        raise ValueError("最终 DMG 的完整性验证报告或 SHA-256 不匹配")
     missing = load(ROOT / "reports/untranslated-ui.json")
     report = load(ROOT / "reports/summary.json")
     report.update(xcode_build="VERIFIED: clean Release build; packaged bundle verified",
@@ -212,7 +221,9 @@ def verify():
         "marketing_version": version, "build_version": str(info.get("CFBundleVersion", "")),
         "verified_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "workflow_run": "https://github.com/" + state["repository"] + "/actions/runs/" + os.environ.get("GITHUB_RUN_ID", ""),
-        "app_zip_sha256": sha256(app_zip), "bundle_checks": bundle_check["checks"],
+        "app_zip_sha256": sha256(app_zip), "app_dmg_sha256": dmg_report["dmgSha256"],
+        "bundle_checks": bundle_check["checks"],
+        "dmg_package": {"status": "PASS", "asset": app_dmg.name},
         "launch_smoke_seconds": smoke["observed_seconds"], "missing_literal_ui_keys": len(missing),
         "ui_review": "NOT VERIFIED: startup/process only; no window or editing acceptance",
         "translation_policy": "Existing dictionary reused; untranslated new text falls back to English; no online translation",
@@ -220,19 +231,24 @@ def verify():
     record_relative = "reports/upgrades/" + state["upstream_sha"] + ".json"
     save(ROOT / record_relative, record)
     state.update(verified=True, release_tag=tag, version=version, app_zip=str(app_zip.relative_to(ROOT)),
-                 app_zip_sha256=record["app_zip_sha256"], record_path=record_relative, missing_ui=len(missing))
+                 app_zip_sha256=record["app_zip_sha256"], app_dmg=str(app_dmg.relative_to(ROOT)),
+                 app_dmg_sha256=record["app_dmg_sha256"], record_path=record_relative, missing_ui=len(missing))
     save(STATE, state)
-    summary("最终 App ZIP 已通过签名、无 Sparkle、中文资源检查和至少 12 秒启动检查。未进行窗口、排版或编辑功能验收。缺译静态 UI："
+    summary("最终 App ZIP 已通过签名、无 Sparkle、中文资源检查和至少 12 秒启动检查；DMG 已生成并通过完整性验证。"
+            + "未进行窗口、排版或编辑功能验收。缺译静态 UI："
             + str(len(missing)) + " 项，使用英文回退。")
 
 
 def publish():
     state = checked_state()
     if state.get("verified") is not True:
-        raise ValueError("未完成最终 ZIP 验证，拒绝提交或发布")
+        raise ValueError("未完成最终 ZIP 和 DMG 验证，拒绝提交或发布")
     app_zip = ROOT / state["app_zip"]
     if sha256(app_zip) != state["app_zip_sha256"]:
         raise ValueError("App ZIP 在启动验证后发生变化，拒绝发布")
+    app_dmg = ROOT / state["app_dmg"]
+    if sha256(app_dmg) != state["app_dmg_sha256"]:
+        raise ValueError("DMG 在完整性验证后发生变化，拒绝发布")
     # Only these official snapshot/generated paths can enter the commit or source archive.
     allowed = GENERATED + [state["record_path"]]
     changed = run("git", "diff", "--name-only", "HEAD", capture=True).splitlines()
@@ -257,39 +273,42 @@ def publish():
     with zipfile.ZipFile(source_zip) as archive:
         if archive.testzip() is not None:
             raise ValueError("可编辑源码 ZIP 完整性检查失败")
-        for required in ["README.md", "scripts/localize.py", "translations/zh-CN.json", "UPSTREAM_COMMIT"]:
+        for required in ["README.md", "scripts/localize.py", "scripts/package_dmg.py",
+                         "translations/zh-CN.json", "UPSTREAM_COMMIT"]:
             if "Compositor-zh-CN/" + required not in archive.namelist():
                 raise ValueError("可编辑源码 ZIP 缺少：" + required)
     sums = RELEASE_DIR / "SHA256SUMS.txt"
-    sums.write_text("".join(sha256(path) + "  " + path.name + "\n" for path in [app_zip, source_zip]), encoding="utf-8")
+    sums.write_text("".join(sha256(path) + "  " + path.name + "\n" for path in [app_dmg, app_zip, source_zip]), encoding="utf-8")
     notes = RELEASE_DIR / "release-notes.md"
     notes.write_text(
-        "基于官方源码的简体中文个人版，适用于 Apple Silicon Mac。\n\n"
+        "下载 `" + app_dmg.name + "`，双击打开，将 `Compositor-zh-CN.app` 拖到“应用程序（Applications）”文件夹，"
+        + "然后从“应用程序”启动。App ZIP 是备用下载，可解压后使用。\n\n"
+        + "基于官方源码的简体中文个人版，适用于 Apple Silicon Mac。\n\n"
         + "Upstream commit: " + state["upstream_sha"] + "\n\n"
         + "官方来源：https://github.com/" + UPSTREAM + "/commit/" + state["upstream_sha"] + "\n\n"
         + "项目源码 commit: " + commit + "\n\n"
         + "已验证 clean Release 构建；最终 ZIP 解压后的独立 Bundle ID、中文资源、无 Sparkle 链接和本地签名；"
-        + "在 macOS GUI 会话中运行至少 12 秒，AppKit 确认完成启动。\n\n"
+        + "在 macOS GUI 会话中运行至少 12 秒，AppKit 确认完成启动。DMG 由同一份已验证 App 制作，并通过磁盘映像完整性验证。\n\n"
         + "保留已有词典。本次识别的静态 UI 缺译 " + str(state["missing_ui"]) + " 项，新增缺译文本使用英文回退。"
         + "未调用在线翻译，未验收全部窗口、动态文本、排版或图像编辑功能。\n\n"
-        + "App 使用本地 ad-hoc 签名，未进行 Apple 公证。解压 app ZIP 后打开；可编辑完整项目见 source ZIP，"
-        + "两个 ZIP 的 SHA-256 见 SHA256SUMS.txt。\n", encoding="utf-8")
+        + "App 使用本地 ad-hoc 签名，未进行 Apple 公证。可编辑完整项目见 source ZIP；"
+        + "DMG、App ZIP 和源码 ZIP 的 SHA-256 见 SHA256SUMS.txt。\n", encoding="utf-8")
     run("git", "tag", "-a", state["release_tag"], "-m", "Verified Chinese build; upstream " + state["upstream_sha"])
     publication = {"status": "PENDING", "source_commit": commit, "release_tag": state["release_tag"],
                    "upstream_commit": state["upstream_sha"],
-                   "assets": {path.name: sha256(path) for path in [app_zip, source_zip, sums]}}
+                   "assets": {path.name: sha256(path) for path in [app_dmg, app_zip, source_zip, sums]}}
     save(ROOT / "build/logs/upgrade-publication.json", publication)
     # Atomic push prevents a tag/main mismatch; never force-push either reference.
     run("git", "push", "--atomic", "origin", "HEAD:refs/heads/main", "refs/tags/" + state["release_tag"])
     # Keep a failed upload private as a draft. A rerun refuses to overwrite an existing draft/version.
-    run("gh", "release", "create", state["release_tag"], str(app_zip), str(source_zip), str(sums),
+    run("gh", "release", "create", state["release_tag"], str(app_dmg), str(app_zip), str(source_zip), str(sums),
         "--repo", state["repository"], "--verify-tag", "--draft", "--title", "Compositor 中文版 " + state["version"],
         "--notes-file", notes)
     run("gh", "release", "edit", state["release_tag"], "--repo", state["repository"], "--draft=false", "--latest")
     publication["status"] = "PUBLISHED"
     save(ROOT / "build/logs/upgrade-publication.json", publication)
     summary("已发布：https://github.com/" + state["repository"] + "/releases/tag/" + state["release_tag"]
-            + "\nApp、可编辑源码与 SHA256SUMS.txt 已上传；未上传用户文件或凭证。")
+            + "\nDMG 安装包、备用 App ZIP、可编辑源码与 SHA256SUMS.txt 已上传；未上传用户文件或凭证。")
 
 
 def main():
