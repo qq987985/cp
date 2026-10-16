@@ -1,0 +1,46 @@
+name: Upgrade and release Chinese App
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: '官方版本：main、latest、标签或 commit SHA；已发布或落后于当前版本时自动跳过'
+        required: true
+        default: main
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: compositor-upgrade-and-release
+  cancel-in-progress: false
+jobs:
+  upgrade:
+    runs-on: macos-26
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      UPSTREAM_REF: ${{ inputs.upstream_ref }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Check Xcode
+        run: xcodebuild -version
+      - name: Resolve upstream and reuse existing Chinese translations
+        id: prepare
+        run: python3 scripts/upgrade_release.py prepare
+      - name: Clean Release build
+        if: steps.prepare.outputs.skip != 'true'
+        run: bash scripts/build.sh
+      - name: Verify the packaged App and its launch
+        if: steps.prepare.outputs.skip != 'true'
+        run: python3 scripts/upgrade_release.py verify
+      - name: Commit the verified snapshot and publish the release
+        if: steps.prepare.outputs.skip != 'true'
+        run: python3 scripts/upgrade_release.py publish
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: upgrade-logs-${{ github.run_id }}
+          path: build/logs/
+          if-no-files-found: ignore

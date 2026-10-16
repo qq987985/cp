@@ -2,6 +2,7 @@
 """Auditable UI-only localization; Python 3 standard library, no dependencies."""
 import argparse, difflib, hashlib, json, os, re, shutil, subprocess, sys, urllib.request
 from pathlib import Path
+from upstream_compat import apply_compat
 ROOT = Path(__file__).resolve().parents[1]
 VENDOR = ROOT/'vendor/Compositor'
 SOURCE = ROOT/'build/source'
@@ -153,12 +154,7 @@ def fetch(args):
 def prepare(args):
     if SOURCE.exists(): shutil.rmtree(SOURCE)
     shutil.copytree(VENDOR,SOURCE)
-    # Remove only audited upstream files, never the vendor snapshot.
-    for relative, expected in load(ROOT/'patches/remove-files.json').items():
-        f=SOURCE/relative
-        if hashlib.sha256(f.read_bytes()).hexdigest()!=expected:
-            raise SystemExit('待移除文件已变化，请审核：'+relative)
-        f.unlink()
+    save(ROOT/'reports/upstream-compat.json', apply_compat(SOURCE, VENDOR))
     catalog={}; sites=[]; audit=[]; diffs=[]
     for f in sorted((SOURCE/'Compositor').rglob('*.swift')):
         rel=f.relative_to(SOURCE).as_posix(); before=f.read_text(); after=rewrite(before,rel,catalog,sites,audit)

@@ -1,0 +1,28 @@
+{
+  "upstreamBuild": 49,
+  "personalBuild": 50,
+  "buildSettingsUpdated": 6,
+  "addedZhHans": true,
+  "removed": {
+    "objects": [
+      "5A9C0D1E2F3A4B5C6D7E8F01",
+      "5A9C0D1E2F3A4B5C6D7E8F03",
+      "5A9C0D1E2F3A4B5C6D7E8F02"
+    ],
+    "files": [
+      "Compositor/IO/UpdateDriver.swift",
+      "Compositor.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+    ],
+    "infoKeys": [
+      "SUEnableInstallerLauncherService",
+      "SUFeedURL",
+      "SUPublicEDKey",
+      "SUEnableAutomaticChecks"
+    ],
+    "machLookupServices": [
+      "$(PRODUCT_BUNDLE_IDENTIFIER)-spks",
+      "$(PRODUCT_BUNDLE_IDENTIFIER)-spki"
+    ],
+    "packagePins": 1
+  }
+}

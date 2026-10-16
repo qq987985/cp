@@ -5,16 +5,6 @@
   "untranslated_candidates": 806,
   "literal_ui_keys": 708,
   "missing_literal_ui_keys": 0,
-  "xcode_build": "PASS (GitHub Actions clean Release)",
-  "ui_review": "NOT VERIFIED",
-  "app_build": 50,
-  "build_source_commit": "ac983d190994709afcb2b19a681ebd1b6a23399c",
-  "build_url": "https://github.com/qq987985/cp/actions/runs/38826018326",
-  "package_verification": "PASS (CI and local)",
-  "cloud_launch": "PASS",
-  "local_launch": "PASS",
-  "local_observed_seconds": 30.052,
-  "main_window_observed": "PASS (Computer Use)",
-  "full_ui_review": "NOT VERIFIED",
-  "full_feature_review": "NOT VERIFIED"
+  "xcode_build": "NOT VERIFIED",
+  "ui_review": "NOT VERIFIED"
 }

@@ -6,9 +6,23 @@
 
 ## 下载
 
-[下载 Mac Apple Silicon 版 build 50](https://github.com/qq987985/cp/releases/download/zh-cn-v1.5.3-build50/Compositor-zh-CN-build50.zip) · [发布说明与全部文件](https://github.com/qq987985/cp/releases/tag/zh-cn-v1.5.3-build50)
+[下载最新版（GitHub Releases）](https://github.com/qq987985/cp/releases/latest) · [build 50 启动修复版](https://github.com/qq987985/cp/releases/tag/zh-cn-v1.5.3-build50)
 
 解压得到 `Compositor-zh-CN.app`，用 build 50 替换旧 build 49。无需自行编译。源码和 SHA-256 校验文件也在同一发布页面。
+
+## 以后升级：只在 GitHub 网页操作
+
+1. 打开 [一键升级入口：Upgrade and release Chinese App](https://github.com/qq987985/cp/actions/workflows/upgrade.yml)。
+2. 点击 **Run workflow**，分支选择 **main**。`upstream_ref` 保持 **main**，再次点击绿色 **Run workflow**。
+3. 等运行显示绿色勾号，再到 [Releases 最新版](https://github.com/qq987985/cp/releases/latest) 下载 App ZIP，退出旧 App 后替换即可。不需要本地源码或 Xcode。
+
+流程自动取得官方完整提交、保留中文词典、更新快照、重新构建并验证最终 ZIP 的实际启动。全部通过后才推送新快照并发布新版本、源码 ZIP 和 SHA-256；相同提交已发布时直接提示无需升级，不会重复发布。
+
+`main` 表示官方最新源码；`latest` 表示官方最新正式发行版，也可填官方标签或完整 commit SHA。落后于当前基线或分叉的版本不会覆盖现有版本。当前基线比 v1.5.3 正式标签领先一个更新源提交，因此现在选 latest 会保持现状。
+
+已有译文会自动复用；新增缺译文用英文显示，发布说明和 `reports/untranslated-ui.json` 会列出数量。升级不调用在线翻译服务，不需要填写翻译密钥。上游如改动关键界面结构或编译要求，流程会停止并留下错误日志，需先修补兼容逻辑；不会跳过错误发布损坏的 App。
+
+运行失败时，打开失败步骤或下载 `upgrade-logs` 日志；已有公开版本不受影响。若发布上传中断产生草稿，请先在 Releases 检查草稿后再重试，流程不会覆盖已有版本。
 
 ## 快速使用
 

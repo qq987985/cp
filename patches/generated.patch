@@ -5112,12 +5112,11 @@
  			);
  			productName = Compositor;
  			productReference = 8F311F99304F03BB0017D14F /* Compositor.app */;
-@@ -197,12 +194,12 @@
- 			hasScannedForEncodings = 0;
+@@ -198,11 +195,11 @@
  			knownRegions = (
  				en,
-+				"zh-Hans",
  				Base,
++				"zh-Hans",
  			);
  			mainGroup = 8F311F90304F03BB0017D14F;
  			minimizedProjectReferenceProxies = 1;
@@ -5224,11 +5223,10 @@
  				DEAD_CODE_STRIPPING = YES;
  				DEVELOPMENT_TEAM = 3E4X3B9Z9T;
  				GENERATE_INFOPLIST_FILE = YES;
-@@ -608,24 +605,7 @@
- 		};
+@@ -609,22 +606,9 @@
  /* End XCConfigurationList section */
  
--/* Begin XCRemoteSwiftPackageReference section */
+ /* Begin XCRemoteSwiftPackageReference section */
 -		5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
 -			isa = XCRemoteSwiftPackageReference;
 -			repositoryURL = "https://github.com/sparkle-project/Sparkle";
@@ -5237,19 +5235,17 @@
 -				minimumVersion = 2.10.0;
 -			};
 -		};
--/* End XCRemoteSwiftPackageReference section */
--
--/* Begin XCSwiftPackageProductDependency section */
+ /* End XCRemoteSwiftPackageReference section */
+ 
+ /* Begin XCSwiftPackageProductDependency section */
 -		5A9C0D1E2F3A4B5C6D7E8F03 /* Sparkle */ = {
 -			isa = XCSwiftPackageProductDependency;
 -			package = 5A9C0D1E2F3A4B5C6D7E8F02 /* XCRemoteSwiftPackageReference "Sparkle" */;
 -			productName = Sparkle;
 -		};
--/* End XCSwiftPackageProductDependency section */
-+
+ /* End XCSwiftPackageProductDependency section */
  	};
  	rootObject = 8F311F91304F03BB0017D14F /* Project object */;
- }
 --- a/Compositor.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
 +++ /dev/null
 @@ -1,15 +0,0 @@
@@ -5270,16 +5266,28 @@
 -}
 --- a/Config/Compositor.entitlements
 +++ b/Config/Compositor.entitlements
-@@ -8,11 +8,5 @@
-     <true/>
-     <key>com.apple.security.network.client</key>
-     <true/>
+@@ -2,17 +2,11 @@
+ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+ <plist version="1.0">
+ <dict>
+-    <key>com.apple.security.app-sandbox</key>
+-    <true/>
+-    <key>com.apple.security.files.user-selected.read-write</key>
+-    <true/>
+-    <key>com.apple.security.network.client</key>
+-    <true/>
 -    <!-- Sparkle installs updates through its helper services, which a sandboxed app reaches by name. -->
 -    <key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
 -    <array>
 -        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spks</string>
 -        <string>$(PRODUCT_BUNDLE_IDENTIFIER)-spki</string>
 -    </array>
++	<key>com.apple.security.app-sandbox</key>
++	<true/>
++	<key>com.apple.security.files.user-selected.read-write</key>
++	<true/>
++	<key>com.apple.security.network.client</key>
++	<true/>
  </dict>
  </plist>
 --- a/Config/Info.plist
